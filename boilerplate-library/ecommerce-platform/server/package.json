@@ -1,0 +1,110 @@
+/**
+ * E-commerce Platform Server Package Configuration
+ * 
+ * This package.json file defines the server-side dependencies and scripts
+ * for the e-commerce platform Express.js backend.
+ * 
+ * Features:
+ * - Express.js server dependencies
+ * - MongoDB and Mongoose ODM
+ * - Authentication and security
+ * - File upload handling
+ * - Payment processing (Stripe)
+ * - Email services
+ * - Development tools
+ * - Testing framework
+ * 
+ * @author E-commerce Platform Team
+ * @version 1.0.0
+ */
+
+{
+  "name": "ecommerce-platform-server",
+  "version": "1.0.0",
+  "description": "E-commerce Platform Server - Express.js API with MongoDB",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "type-check": "tsc --noEmit",
+    "db:migrate": "tsx src/database/migrate.ts",
+    "db:seed": "tsx src/database/seed.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "joi": "^17.11.0",
+    "express-rate-limit": "^7.1.5",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "express-session": "^1.17.3",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.6",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0",
+    "express-validator": "^7.0.1",
+    "class-validator": "^0.14.0",
+    "class-transformer": "^0.5.1",
+    "reflect-metadata": "^0.1.13",
+    "stripe": "^14.7.0",
+    "nodemailer": "^6.9.7",
+    "redis": "^4.6.10",
+    "connect-redis": "^7.1.0",
+    "express-async-errors": "^3.1.1",
+    "slugify": "^1.6.6",
+    "moment": "^2.29.4",
+    "csv-parser": "^3.0.0",
+    "pdfkit": "^0.14.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "@types/morgan": "^1.9.9",
+    "@types/bcryptjs": "^2.4.3",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/compression": "^1.7.5",
+    "@types/cookie-parser": "^1.4.6",
+    "@types/express-session": "^1.17.10",
+    "@types/multer": "^1.4.11",
+    "@types/uuid": "^9.0.7",
+    "@types/node": "^20.10.0",
+    "@types/jest": "^29.5.8",
+    "@types/supertest": "^2.0.16",
+    "@types/nodemailer": "^6.4.14",
+    "@types/slugify": "^1.6.5",
+    "@types/moment": "^2.13.0",
+    "@types/pdfkit": "^0.12.12",
+    "typescript": "^5.3.2",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.6.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "supertest": "^6.3.3",
+    "eslint": "^8.55.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1"
+  },
+  "keywords": [
+    "ecommerce",
+    "express",
+    "mongodb",
+    "typescript",
+    "stripe",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

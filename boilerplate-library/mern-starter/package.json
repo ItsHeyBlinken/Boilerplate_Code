@@ -1,0 +1,39 @@
+{
+  "name": "mern-starter-boilerplate",
+  "version": "1.0.0",
+  "description": "A full-stack MERN application with MongoDB, Express, React, and Node.js",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "lint": "cd server && npm run lint && cd ../client && npm run lint",
+    "lint:fix": "cd server && npm run lint:fix && cd ../client && npm run lint:fix",
+    "test": "cd server && npm test && cd ../client && npm test",
+    "test:watch": "concurrently \"cd server && npm run test:watch\" \"cd client && npm run test:watch\"",
+    "type-check": "cd server && npm run type-check && cd ../client && npm run type-check"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "typescript",
+    "fullstack",
+    "boilerplate"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

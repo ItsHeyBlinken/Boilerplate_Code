@@ -1,0 +1,59 @@
+/**
+ * E-commerce Platform Root Package Configuration
+ * 
+ * This package.json file defines the root-level configuration for the
+ * e-commerce platform boilerplate with scripts and dependencies.
+ * 
+ * Features:
+ * - Concurrent development scripts
+ * - Build and deployment scripts
+ * - Testing and linting scripts
+ * - Database migration scripts
+ * - Development dependencies
+ * - Project metadata
+ * 
+ * @author E-commerce Platform Team
+ * @version 1.0.0
+ */
+
+{
+  "name": "ecommerce-platform-boilerplate",
+  "version": "1.0.0",
+  "description": "A comprehensive full-stack e-commerce platform with product management, shopping cart, order processing, and admin dashboard",
+  "main": "server/dist/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "lint": "cd server && npm run lint && cd ../client && npm run lint",
+    "lint:fix": "cd server && npm run lint:fix && cd ../client && npm run lint:fix",
+    "test": "cd server && npm test && cd ../client && npm test",
+    "test:watch": "concurrently \"cd server && npm run test:watch\" \"cd client && npm run test:watch\"",
+    "type-check": "cd server && npm run type-check && cd ../client && npm run type-check",
+    "db:migrate": "cd server && npm run db:migrate",
+    "db:seed": "cd server && npm run db:seed"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  },
+  "keywords": [
+    "ecommerce",
+    "shopping-cart",
+    "payment",
+    "products",
+    "orders",
+    "admin-dashboard",
+    "fullstack",
+    "boilerplate"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

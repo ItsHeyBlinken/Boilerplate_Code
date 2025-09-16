@@ -1,0 +1,26 @@
+/**
+ * TypeScript Configuration for Node.js Tools
+ * 
+ * This configuration file defines TypeScript compiler options
+ * for Node.js-based tools like Vite configuration files.
+ * 
+ * Features:
+ * - Node.js compatibility
+ * - ESNext modules for modern tools
+ * - Composite project support
+ * - Development tooling optimization
+ * 
+ * @author CRM Platform Team
+ * @version 1.0.0
+ */
+
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["vite.config.ts"]
+}
