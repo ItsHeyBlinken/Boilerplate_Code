@@ -1,0 +1,46 @@
+{
+  "name": "vue-vite-boilerplate",
+  "version": "1.0.0",
+  "description": "A modern Vue.js 3 application with Vite, TypeScript, Pinia, and Tailwind CSS. Perfect for building fast, scalable frontend applications.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-plugin-vue": "^9.18.1",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.5",
+    "vue-tsc": "^1.8.22"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vite",
+    "typescript",
+    "pinia",
+    "tailwind",
+    "boilerplate"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
+

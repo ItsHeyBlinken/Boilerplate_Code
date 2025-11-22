@@ -2,7 +2,7 @@
 
 ## What Works ✅
 
-### Completed Boilerplates (10/12)
+### Completed Boilerplates (16/16)
 1. **HTML/CSS/JS** - Fully functional static landing page
 2. **Express API** - Complete REST API with JWT auth and PostgreSQL
 3. **React Vite** - Modern React app with routing and state management
@@ -13,6 +13,12 @@
 8. **Docker Node** - Containerized deployment setup
 9. **CRM Platform** - Complete CRM with client and server
 10. **E-commerce Platform** - Full e-commerce solution
+11. **GraphQL API** - GraphQL API with Apollo Server and Prisma ⭐ NEW
+12. **NestJS Starter** - Enterprise Node.js framework ⭐ NEW
+13. **Vue.js Vite** - Vue 3 app with Composition API and Pinia ⭐ NEW
+14. **Remix Starter** - Full-stack React framework ⭐ NEW
+15. **Serverless Functions** - Serverless templates for AWS, Vercel, Netlify ⭐ NEW
+16. **Monorepo Turborepo** - Monorepo setup with Turborepo ⭐ NEW
 
 ### Infrastructure
 - ✅ Comprehensive README files for all boilerplates
