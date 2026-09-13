@@ -5,29 +5,29 @@
 **Primary Tasks**:
 1. ✅ Repo checkup after long absence
 2. ✅ Flesh out stub boilerplates (Phase A)
-3. ⏳ Phase B thicken partials (mern, stripe, docker) — deferred to next pass
+3. ✅ Phase B thicken partials — Postgres-first
 4. ⏳ New templates (SaaS, realtime, etc.) — deferred until library is solid
 
 ## Recent Changes
-- ✅ `vue-vite` expanded to runnable Vue 3 + Vite + Pinia + Router + Tailwind starter
-- ✅ `remix-starter` expanded with routes, Tailwind, Prisma posts + demo fallback
-- ✅ `serverless-functions` expanded with Vercel/Netlify/AWS handlers + shared helpers
-- ✅ `monorepo-turborepo` expanded with `apps/web`, `apps/api`, `packages/shared`
-- ✅ `nestjs-starter` expanded with Prisma, auth, users, health, Swagger
-- ✅ Added `.env.example` for vue-vite, remix, nestjs, serverless, monorepo, react-vite, graphql-api
-- ✅ Updated `simple-test.sh` to include the 6 newer boilerplates
+- ✅ Added **When you're ready to use this template** section to all 16 boilerplate READMEs (+ root README note)
+- ✅ `mern-starter` converted → `pern-starter` (Prisma + PostgreSQL, Zustand auth, posts like/delete)
+- ✅ `stripe-integration` migrated to Prisma/Postgres; Checkout Session + real subscriptions + expanded webhooks
+- ✅ `docker-node` rebuilt on Postgres only (Redis/Mongo dropped); Notes API + Compose healthchecks
+- ✅ Root README, simple-test.sh, test-boilerplates.sh, PROJECT_USE_CASES updated for PERN
+- ✅ Decision: prefer PostgreSQL + Prisma; drop Redis from docker-node
 
 ## Active Decisions
 1. **Node/TS web focus** — no mobile templates for now
-2. **Finish current library before new templates**
-3. **Defaults**: Remix keeps lean Prisma; monorepo = web+api+shared; NestJS = JWT+users+health+Swagger
+2. **PostgreSQL + Prisma preferred** over MongoDB for new/updated templates
+3. **CRM + ecommerce** remain on Mongo for now — noted for future migration
+4. **Defaults**: Remix keeps lean Prisma; monorepo = web+api+shared; NestJS = JWT+users+health+Swagger
 
 ## Next Steps
-1. Phase B: thicken `mern-starter`, `stripe-integration`, `docker-node` if needed
-2. Optionally add new templates (realtime/Socket.io, SaaS, tRPC)
-3. User-run installs/smoke tests with local Postgres where required
+1. Optional local smoke tests (install + Prisma migrate/push + boot) for PERN, Stripe, Docker
+2. Future: migrate `crm-platform` and `ecommerce-platform` Mongo → Postgres/Prisma
+3. Optionally add new templates (realtime/Socket.io, SaaS, tRPC) after library feels solid
 
 ## Known Gaps
-- Full runtime smoke tests (install + DB migrate + boot) not fully executed in this session
-- `vue-tsc` bumped to v2 for Node compatibility; re-verify after install
-- Phase B partials not yet revisited
+- Full runtime smoke tests not fully executed this session
+- CRM and ecommerce still Mongo/Mongoose
+- `vue-tsc` bump re-verify after install still pending

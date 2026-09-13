@@ -1040,7 +1040,7 @@ A collection of innovative, out-of-the-box project ideas for each boilerplate. T
 
 ## Full-Stack Boilerplates
 
-### MERN Starter
+### PERN Starter
 
 #### 1. Community Skill Exchange Platform
 **Description**: A full-stack platform where community members can teach and learn skills from each other.
@@ -1054,7 +1054,7 @@ A collection of innovative, out-of-the-box project ideas for each boilerplate. T
 
 **Target Audience**: Lifelong learners, community builders, skill enthusiasts
 
-**Why This Boilerplate**: MERN perfect for real-time features, MongoDB flexible for user-generated content.
+**Why This Boilerplate**: PERN with Prisma fits structured relational data and auth-heavy apps.
 
 **Complexity**: Advanced
 
@@ -1074,7 +1074,7 @@ A collection of innovative, out-of-the-box project ideas for each boilerplate. T
 
 **Target Audience**: Food waste reduction advocates, community members, restaurants
 
-**Why This Boilerplate**: MERN perfect for user-generated content, real-time updates for availability.
+**Why This Boilerplate**: PERN with Prisma fits structured content and availability rules.
 
 **Complexity**: Intermediate
 
@@ -1094,7 +1094,7 @@ A collection of innovative, out-of-the-box project ideas for each boilerplate. T
 
 **Target Audience**: Neighborhoods, community groups, sustainability enthusiasts
 
-**Why This Boilerplate**: MERN perfect for community features, MongoDB flexible for various tool types.
+**Why This Boilerplate**: PERN with Prisma fits inventory and community features with clear relations.
 
 **Complexity**: Intermediate
 
@@ -1114,7 +1114,7 @@ A collection of innovative, out-of-the-box project ideas for each boilerplate. T
 
 **Target Audience**: Community organizers, event-goers, local businesses
 
-**Why This Boilerplate**: MERN perfect for event management, real-time updates for RSVPs.
+**Why This Boilerplate**: PERN with Prisma fits event management and RSVP integrity.
 
 **Complexity**: Intermediate
 
@@ -1134,7 +1134,7 @@ A collection of innovative, out-of-the-box project ideas for each boilerplate. T
 
 **Target Audience**: Local business supporters, small business owners, community organizers
 
-**Why This Boilerplate**: MERN perfect for community features, flexible data model for various business types.
+**Why This Boilerplate**: PERN with Prisma fits community directories and typed business records.
 
 **Complexity**: Intermediate to Advanced
 
@@ -1537,7 +1537,7 @@ A collection of innovative, out-of-the-box project ideas for each boilerplate. T
 2. Personal Habit Tracker (React Vite)
 3. Mood Tracking Journal (Vue.js Vite)
 4. Community Recipe Exchange (Next.js Starter)
-5. Local Food Sharing Network (MERN Starter)
+5. Local Food Sharing Network (PERN Starter)
 
 ### Intermediate Projects
 1. Skill Swap Marketplace (React Vite)
@@ -1593,12 +1593,12 @@ A collection of innovative, out-of-the-box project ideas for each boilerplate. T
 - Local Business Directory (Next.js Starter)
 - Neighborhood Resource Sharing (Next.js Starter)
 - Community Garden Tracker (Remix Starter)
-- Local Food Sharing Network (MERN Starter)
-- Tool Library Platform (MERN Starter)
+- Local Food Sharing Network (PERN Starter)
+- Tool Library Platform (PERN Starter)
 
 ### Sustainability & Sharing Economy
-- Food Sharing Network (MERN Starter)
-- Tool Library Platform (MERN Starter)
+- Food Sharing Network (PERN Starter)
+- Tool Library Platform (PERN Starter)
 - Neighborhood Resource Sharing (Next.js Starter)
 - Community Skill Exchange (React Vite)
 - Local Food Sharing Network (Remix Starter)
@@ -1608,7 +1608,7 @@ A collection of innovative, out-of-the-box project ideas for each boilerplate. T
 - Tutor Student Manager (CRM Platform)
 - Digital Course Marketplace (E-commerce Platform)
 - Skill Swap Marketplace (React Vite)
-- Community Skill Exchange (MERN Starter)
+- Community Skill Exchange (PERN Starter)
 
 ---
 

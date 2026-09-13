@@ -33,7 +33,7 @@ A comprehensive collection of production-ready boilerplate code for different pr
 - **In Scope**: 
   - Frontend boilerplates (React, Next.js, static HTML)
   - Backend boilerplates (Express, Node.js)
-  - Full-stack boilerplates (MERN, CRM, E-commerce)
+  - Full-stack boilerplates (PERN, CRM, E-commerce)
   - Infrastructure boilerplates (Docker, deployment)
   - Testing and validation tools
   

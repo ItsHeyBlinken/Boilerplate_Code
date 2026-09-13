@@ -1,0 +1,39 @@
+{
+  "name": "pern-starter-boilerplate",
+  "version": "1.0.0",
+  "description": "A full-stack PERN application with PostgreSQL, Express, React, and Node.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build && cd ../server && npm run build",
+    "start": "cd server && npm start",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "db:generate": "cd server && npm run db:generate",
+    "db:migrate": "cd server && npm run db:migrate",
+    "db:push": "cd server && npm run db:push",
+    "lint": "cd server && npm run lint && cd ../client && npm run lint",
+    "type-check": "cd server && npm run type-check && cd ../client && npm run type-check"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  },
+  "keywords": [
+    "pern",
+    "postgresql",
+    "prisma",
+    "express",
+    "react",
+    "nodejs",
+    "typescript",
+    "fullstack",
+    "boilerplate"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

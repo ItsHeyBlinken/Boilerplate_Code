@@ -2,6 +2,22 @@
 
 A production-ready NestJS application with TypeScript, PostgreSQL, authentication, and enterprise patterns. Perfect for building scalable, maintainable backend applications.
 
+
+## When you're ready to use this template
+
+This folder is a **starting point** only. You do **not** need to install packages, create databases, or run servers while it sits in the boilerplate library.
+
+When you are ready to build a real project from it:
+
+1. Copy this folder to your new project directory
+2. Run `npm install`
+3. Copy `.env.example` → `.env` and set `DATABASE_URL` + JWT secrets
+4. Apply the Prisma schema (`npx prisma migrate dev` or `db push`) against your PostgreSQL database
+5. Run `npm run start:dev` (or the README’s preferred start script)
+6. Customize modules, auth, and domain services for your product
+
+Do not commit real API keys or passwords. Treat `.env` as local-only.
+
 ## 📋 Table of Contents
 
 - [Features](#features)

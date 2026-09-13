@@ -1,4 +1,3 @@
-import 'reflect-metadata'
 import express from 'express'
 import cors from 'cors'
 import helmet from 'helmet'
@@ -136,19 +135,18 @@ app.get('/api-docs', (req, res) => {
       },
       payments: {
         'POST /payments/create-payment-intent': 'Create payment intent',
-        'POST /payments/confirm-payment': 'Confirm payment',
+        'POST /payments/create-checkout-session': 'Create Stripe Checkout session',
         'GET /payments/history': 'Get payment history',
-        'POST /payments/refund': 'Create refund (admin only)',
       },
       subscriptions: {
-        'POST /subscriptions/create': 'Create subscription',
+        'POST /subscriptions/create': 'Create Stripe subscription',
         'GET /subscriptions': 'Get user subscriptions',
-        'PUT /subscriptions/:id/cancel': 'Cancel subscription',
+        'PUT /subscriptions/:id/cancel': 'Cancel at period end',
         'POST /subscriptions/:id/resume': 'Resume subscription',
-        'GET /subscriptions/plans': 'Get subscription plans',
+        'GET /subscriptions/plans': 'List example plan placeholders',
       },
       webhooks: {
-        'POST /webhooks/stripe': 'Stripe webhook endpoint',
+        'POST /webhooks/stripe': 'Stripe webhook endpoint (raw body)',
       },
       health: {
         'GET /health': 'Health check endpoint',

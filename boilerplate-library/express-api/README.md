@@ -2,6 +2,22 @@
 
 A modern, production-ready Express.js API with TypeScript, JWT authentication, PostgreSQL database, and comprehensive error handling. Perfect for building robust REST APIs with authentication and database management.
 
+
+## When you're ready to use this template
+
+This folder is a **starting point** only. You do **not** need to install packages, create databases, or run servers while it sits in the boilerplate library.
+
+When you are ready to build a real project from it:
+
+1. Copy this folder to your new project directory
+2. Run `npm install`
+3. Copy `.env.example` → `.env` and set database + JWT values
+4. Create/configure your PostgreSQL database and run the project’s migration workflow
+5. Run `npm run dev`
+6. Customize routes, controllers, and auth for your API
+
+Do not commit real API keys or passwords. Treat `.env` as local-only.
+
 ## 📋 Table of Contents
 
 - [Features](#features)

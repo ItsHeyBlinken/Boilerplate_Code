@@ -43,14 +43,14 @@ boilerplate-library/
 - **Error Handling**: Centralized error handling middleware
 - **Logging**: Winston for structured logging
 
-### Full-Stack Boilerplates (CRM, E-commerce, MERN)
+### Full-Stack Boilerplates (CRM, E-commerce, PERN)
 - **Structure**:
   - `client/` for frontend React application
   - `server/` for backend Express application
   - Root `package.json` with scripts to run both
 - **Communication**: RESTful API between client and server
-- **State Management**: Zustand on client, Context API for auth
-- **Database**: MongoDB with Mongoose or PostgreSQL with Prisma
+- **State Management**: Zustand on client
+- **Database**: PostgreSQL with Prisma (preferred); MongoDB with Mongoose remaining on CRM/ecommerce pending migration
 
 ## Key Technical Decisions
 

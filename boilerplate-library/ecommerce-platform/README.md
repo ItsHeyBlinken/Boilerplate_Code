@@ -2,6 +2,23 @@
 
 A comprehensive full-stack e-commerce platform built with React, Express.js, MongoDB, and TypeScript. This boilerplate provides a complete foundation for building modern e-commerce applications with features like product management, shopping cart, order processing, payment integration, and admin dashboard.
 
+
+## When you're ready to use this template
+
+This folder is a **starting point** only. You do **not** need to install packages, create databases, or run servers while it sits in the boilerplate library.
+
+When you are ready to build a real project from it:
+
+1. Copy this folder to your new project directory
+2. Run `npm run install-all` (or install client + server separately)
+3. Copy server/client `.env.example` files and set MongoDB, JWT, and Stripe values
+4. Start MongoDB locally (or point `MONGODB_URI` at your instance)
+5. Run the root `npm run dev` (or README scripts) to boot client + server
+6. Customize catalog, cart, and checkout for your store
+7. Note: this template still uses MongoDB; a PostgreSQL migration is planned later
+
+Do not commit real API keys or passwords. Treat `.env` as local-only.
+
 ## 🚀 Features
 
 ### Core E-commerce Features

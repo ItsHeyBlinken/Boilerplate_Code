@@ -2,39 +2,41 @@
 
 A comprehensive collection of production-ready boilerplate code for different project types. Save time when starting new projects with these GitHub-ready starting points.
 
+**Library vs project:** Templates in this repo are starting points only. You do not need to install dependencies or provision databases inside the library. Each boilerplate README has a **When you're ready to use this template** section with the copy → configure → run steps for that stack.
+
 ## 📂 Available Boilerplates
 
 ### Frontend Boilerplates
 | Boilerplate | Description | Use Cases |
 |-------------|-------------|-----------|
-| [**Static HTML/CSS/JS**](./html-css-js/) | Modern landing page template with responsive design | Landing pages, portfolios, marketing sites |
-| [**React (Vite)**](./react-vite/) | Client-side app with routing + state management | Dashboards, admin panels, single-page apps |
-| [**Vue.js (Vite)**](./vue-vite/) | Vue 3 app with Composition API, Pinia, and Tailwind | Vue-based SPAs, progressive web apps, component libraries |
-| [**Next.js Starter**](./nextjs-starter/) | Full-stack React with API routes + auth placeholder | Full-stack web apps, e-commerce sites, blogs |
-| [**Remix Starter**](./remix-starter/) | Full-stack React framework with web standards | Progressive web apps, SEO-critical sites, data-heavy apps |
+| [**Static HTML/CSS/JS**](./boilerplate-library/html-css-js/) | Modern landing page template with responsive design | Landing pages, portfolios, marketing sites |
+| [**React (Vite)**](./boilerplate-library/react-vite/) | Client-side app with routing + state management | Dashboards, admin panels, single-page apps |
+| [**Vue.js (Vite)**](./boilerplate-library/vue-vite/) | Vue 3 app with Composition API, Pinia, and Tailwind | Vue-based SPAs, progressive web apps, component libraries |
+| [**Next.js Starter**](./boilerplate-library/nextjs-starter/) | Full-stack React with API routes + auth placeholder | Full-stack web apps, e-commerce sites, blogs |
+| [**Remix Starter**](./boilerplate-library/remix-starter/) | Full-stack React framework with web standards | Progressive web apps, SEO-critical sites, data-heavy apps |
 
 ### Backend Boilerplates
 | Boilerplate | Description | Use Cases |
 |-------------|-------------|-----------|
-| [**Express.js API**](./express-api/) | REST API with JWT auth, error handling, PostgreSQL | REST APIs, microservices, backend services |
-| [**GraphQL API**](./graphql-api/) | GraphQL API with Apollo Server and Prisma | Modern APIs, mobile backends, flexible querying |
-| [**NestJS Starter**](./nestjs-starter/) | Enterprise Node.js framework with TypeScript | Enterprise apps, microservices, scalable backends |
-| [**Node.js + PostgreSQL (Prisma)**](./node-postgres/) | Database starter with migrations and seed data | Database-driven applications, user management systems |
-| [**Serverless Functions**](./serverless-functions/) | Serverless function templates for AWS, Vercel, Netlify | Cost-effective APIs, event processing, microservices |
+| [**Express.js API**](./boilerplate-library/express-api/) | REST API with JWT auth, error handling, PostgreSQL | REST APIs, microservices, backend services |
+| [**GraphQL API**](./boilerplate-library/graphql-api/) | GraphQL API with Apollo Server and Prisma | Modern APIs, mobile backends, flexible querying |
+| [**NestJS Starter**](./boilerplate-library/nestjs-starter/) | Enterprise Node.js framework with TypeScript | Enterprise apps, microservices, scalable backends |
+| [**Node.js + PostgreSQL (Prisma)**](./boilerplate-library/node-postgres/) | Database starter with migrations and seed data | Database-driven applications, user management systems |
+| [**Serverless Functions**](./boilerplate-library/serverless-functions/) | Serverless function templates for AWS, Vercel, Netlify | Cost-effective APIs, event processing, microservices |
 
 ### Full-Stack Boilerplates
 | Boilerplate | Description | Use Cases |
 |-------------|-------------|-----------|
-| [**MERN Starter**](./mern-starter/) | MongoDB + Express + React + Node CRUD app | Full-stack applications, content management systems |
-| [**CRM Platform**](./crm-platform/) | Complete CRM with contact, lead, and deal management | Customer relationship management, sales tracking |
-| [**E-commerce Platform**](./ecommerce-platform/) | Full e-commerce with products, cart, and payments | Online stores, marketplaces, retail platforms |
+| [**PERN Starter**](./boilerplate-library/pern-starter/) | PostgreSQL + Express + React + Node (Prisma) CRUD app | Full-stack applications, content management systems |
+| [**CRM Platform**](./boilerplate-library/crm-platform/) | Complete CRM with contact, lead, and deal management | Customer relationship management, sales tracking |
+| [**E-commerce Platform**](./boilerplate-library/ecommerce-platform/) | Full e-commerce with products, cart, and payments | Online stores, marketplaces, retail platforms |
 
 ### Infrastructure & Tools
 | Boilerplate | Description | Use Cases |
 |-------------|-------------|-----------|
-| [**Stripe Integration**](./stripe-integration/) | Payment flow with checkout + webhook handler | E-commerce, subscription services, payment processing |
-| [**Dockerized Node App**](./docker-node/) | Deployment-ready template with Docker | Production deployments, scalable applications |
-| [**Monorepo (Turborepo)**](./monorepo-turborepo/) | Monorepo setup with Turborepo for multiple packages | Multi-app projects, shared packages, team collaboration |
+| [**Stripe Integration**](./boilerplate-library/stripe-integration/) | Payment flow with checkout + webhook handler | E-commerce, subscription services, payment processing |
+| [**Dockerized Node App**](./boilerplate-library/docker-node/) | Deployment-ready template with Docker | Production deployments, scalable applications |
+| [**Monorepo (Turborepo)**](./boilerplate-library/monorepo-turborepo/) | Monorepo setup with Turborepo for multiple packages | Multi-app projects, shared packages, team collaboration |
 
 ## 🔧 Usage Workflow
 
@@ -42,13 +44,13 @@ When starting a new project:
 
 1. **Clone this repository**
    ```bash
-   git clone <your-repo-url> boilerplate-library
-   cd boilerplate-library
+   git clone <your-repo-url>
+   cd Boilerplate_Code   # or your clone directory
    ```
 
 2. **Copy the boilerplate you need**
    ```bash
-   cp -r ./html-css-js ../my-new-project
+   cp -r ./boilerplate-library/html-css-js ../my-new-project
    cd ../my-new-project
    ```
 
@@ -67,14 +69,14 @@ When starting a new project:
 
 ### Landing Page Project
 ```bash
-cp -r ./html-css-js ../my-landing-page
+cp -r ./boilerplate-library/html-css-js ../my-landing-page
 cd ../my-landing-page
 # Follow html-css-js/README.md instructions
 ```
 
 ### Dashboard App
 ```bash
-cp -r ./react-vite ../my-dashboard
+cp -r ./boilerplate-library/react-vite ../my-dashboard
 cd ../my-dashboard
 npm install
 npm run dev
@@ -82,7 +84,7 @@ npm run dev
 
 ### Full-Stack App
 ```bash
-cp -r ./nextjs-starter ../my-fullstack-app
+cp -r ./boilerplate-library/nextjs-starter ../my-fullstack-app
 cd ../my-fullstack-app
 npm install
 npm run dev
@@ -90,7 +92,7 @@ npm run dev
 
 ### Backend API
 ```bash
-cp -r ./express-api ../my-api
+cp -r ./boilerplate-library/express-api ../my-api
 cd ../my-api
 npm install
 npm run dev
@@ -101,9 +103,9 @@ npm run dev
 - **Node.js** (v18+ recommended)
 - **npm** or **yarn**
 - **Git**
-- **PostgreSQL** (for database boilerplates)
-- **MongoDB** (for MERN boilerplate)
+- **PostgreSQL** (for database / PERN / Stripe / Docker boilerplates)
 - **Docker** (for Dockerized boilerplate)
+- **MongoDB** (still used by CRM and E-commerce templates — planned Postgres migration)
 
 ## 🛠️ Technology Stack
 
@@ -111,7 +113,7 @@ Each boilerplate uses modern, production-ready technologies:
 
 - **Frontend**: React, Next.js, Remix, Vue.js, Vite, TypeScript, Tailwind CSS
 - **Backend**: Node.js, Express.js, NestJS, GraphQL (Apollo), TypeScript
-- **Database**: PostgreSQL (Prisma), MongoDB (Mongoose)
+- **Database**: PostgreSQL (Prisma); MongoDB (Mongoose) remaining on CRM/E-commerce pending migration
 - **Authentication**: JWT, NextAuth.js, Passport
 - **Validation**: Zod, class-validator
 - **State Management**: Zustand, Pinia

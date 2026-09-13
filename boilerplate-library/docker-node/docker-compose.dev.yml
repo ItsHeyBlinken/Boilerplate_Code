@@ -8,55 +8,50 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NODE_ENV=development
-      - PORT=3000
-      - MONGODB_URI=mongodb://mongodb:27017/docker_node_dev
-      - REDIS_URL=redis://redis:6379
+      NODE_ENV: development
+      PORT: 3000
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/docker_node?schema=public
     volumes:
       - .:/app
       - /app/node_modules
     depends_on:
-      - mongodb
-      - redis
+      postgres:
+        condition: service_healthy
     networks:
       - app-network
+    command: sh -c "npx prisma db push && npm run dev"
 
-  mongodb:
-    image: mongo:7.0
+  postgres:
+    image: postgres:16-alpine
     ports:
-      - "27017:27017"
+      - "5432:5432"
     environment:
-      - MONGO_INITDB_DATABASE=docker_node_dev
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: docker_node
     volumes:
-      - mongodb_data:/data/db
-    networks:
-      - app-network
-
-  redis:
-    image: redis:7.2-alpine
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis_data:/data
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d docker_node"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
     networks:
       - app-network
 
   nginx:
     image: nginx:alpine
     ports:
-      - "80:80"
-      - "443:443"
+      - "8080:80"
     volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-      - ./nginx/ssl:/etc/nginx/ssl
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
     depends_on:
       - app
     networks:
       - app-network
 
 volumes:
-  mongodb_data:
-  redis_data:
+  postgres_data:
 
 networks:
   app-network:

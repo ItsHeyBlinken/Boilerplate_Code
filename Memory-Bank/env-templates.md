@@ -135,70 +135,48 @@ API_PREFIX=/api/v1
 API_VERSION=1.0.0
 ```
 
-## stripe-integration/.env.example
-```bash
-# Server Configuration
-NODE_ENV=development
-PORT=3001
-HOST=localhost
-
-# Database Configuration
-MONGODB_URI=mongodb://localhost:27017/stripe_integration_db
-
-# JWT Configuration
-JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
-JWT_EXPIRES_IN=7d
-
-# Stripe Configuration
-STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key
-STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key
-STRIPE_WEBHOOK_SECRET=whsec_your_webhook_secret
-
-# CORS Configuration
-CORS_ORIGIN=http://localhost:3000
-CORS_CREDENTIALS=true
-
-# Logging
-LOG_LEVEL=info
-LOG_FILE=logs/app.log
-```
-
-## mern-starter/.env.example
+## pern-starter/.env.example
 
 ### Server (.env)
 ```bash
-# Server Configuration
 NODE_ENV=development
 PORT=5000
 HOST=localhost
-
-# Database Configuration
-MONGODB_URI=mongodb://localhost:27017/mern_starter_db
-
-# JWT Configuration
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/pern_starter?schema=public
 JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
 JWT_EXPIRES_IN=7d
-JWT_REFRESH_SECRET=your-super-secret-refresh-key-change-this-in-production
-JWT_REFRESH_EXPIRES_IN=30d
-
-# CORS Configuration
-CORS_ORIGIN=http://localhost:3000
+CORS_ORIGIN=http://localhost:5173
 CORS_CREDENTIALS=true
-
-# Rate Limiting
 RATE_LIMIT_WINDOW_MS=900000
 RATE_LIMIT_MAX_REQUESTS=100
-
-# Logging
 LOG_LEVEL=info
-LOG_FILE=logs/app.log
+API_PREFIX=/api/v1
+API_VERSION=1.0.0
 ```
 
 ### Client (.env)
 ```bash
-# API Configuration
 VITE_API_URL=http://localhost:5000/api/v1
-VITE_APP_NAME=MERN Starter
+```
+
+## stripe-integration/.env.example
+```bash
+NODE_ENV=development
+PORT=3001
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/stripe_integration?schema=public
+STRIPE_SECRET_KEY=sk_test_...
+STRIPE_PUBLISHABLE_KEY=pk_test_...
+STRIPE_WEBHOOK_SECRET=whsec_...
+JWT_SECRET=change-me
+FRONTEND_URL=http://localhost:3000
+API_PREFIX=/api/v1
+```
+
+## docker-node/.env.example
+```bash
+NODE_ENV=development
+PORT=3000
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/docker_node?schema=public
 ```
 
 ## crm-platform/.env.example
@@ -246,16 +224,6 @@ FRONTEND_URL=http://localhost:5173
 ```bash
 VITE_API_URL=http://localhost:3000/api
 VITE_STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key
-```
-
-## docker-node/.env.example
-```bash
-NODE_ENV=development
-PORT=3000
-MONGODB_URI=mongodb://mongodb:27017/docker_node_db
-REDIS_URL=redis://redis:6379
-JWT_SECRET=your-super-secret-jwt-key
-JWT_EXPIRES_IN=7d
 ```
 
 ## react-vite/.env.example

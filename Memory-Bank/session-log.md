@@ -248,5 +248,45 @@ Created 6 new high-priority boilerplates with comprehensive documentation and co
 
 ---
 
+## Session 5 - Phase B Postgres-first
+**Date**: 2026-09-13
+
+### Completed Tasks
+
+#### 1. Preference decision ✅
+- Prefer PostgreSQL + Prisma over MongoDB
+- Drop Redis from docker-node
+- Note CRM + ecommerce for future Mongo → Postgres migration
+
+#### 2. PERN conversion ✅
+- Renamed `mern-starter` → `pern-starter`
+- Prisma schema (User, Post, Like)
+- Auth/users/posts routes on Prisma; like/unlike endpoints
+- Client Zustand auth store; posts create/like/delete; honest README
+
+#### 3. Stripe integration ✅
+- Migrated Mongoose → Prisma/PostgreSQL
+- Checkout Session endpoint; real Stripe subscriptions
+- Webhooks: payment_intent.*, checkout.session.completed, customer.subscription.*
+
+#### 4. Docker Node ✅
+- Compose uses Postgres only (Mongo/Redis removed)
+- Notes CRUD API + DB-aware `/health`
+- Dev/prod Dockerfiles and Compose updated for Prisma
+
+#### 5. Docs ✅
+- Root README, simple-test.sh, test-boilerplates.sh, PROJECT_USE_CASES, Memory Bank updated
+
+### Deferred
+- Runtime smoke tests (user-run installs/migrations when adopting a template)
+- CRM + ecommerce Postgres migration
+- New templates (realtime, SaaS, tRPC)
+
+#### 6. Ready-to-use notes ✅
+- Added **When you're ready to use this template** to all 16 boilerplate READMEs
+- Root README clarifies library folders are starting points only (no install/DB required in-repo)
+
+---
+
 *This log tracks all completed work and changes made to the project.*
 

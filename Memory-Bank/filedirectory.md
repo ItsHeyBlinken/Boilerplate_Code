@@ -83,48 +83,30 @@
   - `utils/` - Utility functions
 - `README.md` - Documentation
 
-### 6. mern-starter/
-**Purpose**: Full-stack MERN (MongoDB, Express, React, Node) application
+### 6. pern-starter/
+**Purpose**: Full-stack PERN (PostgreSQL, Express, React, Node) application with Prisma
 - `package.json` - Root package.json with scripts
 - `README.md` - Documentation
-- `client/` - React frontend
-  - `package.json` - Client dependencies
-  - `vite.config.ts` - Vite configuration
-  - `tsconfig.json` - TypeScript configuration
-  - `tailwind.config.js` - Tailwind CSS configuration
-  - `postcss.config.js` - PostCSS configuration
-  - `src/` - Source code (structure similar to react-vite)
-- `server/` - Express backend
-  - `package.json` - Server dependencies
-  - `tsconfig.json` - TypeScript configuration
-  - `src/` - Source code
-    - `index.ts` - Server entry point
-    - `config/` - Configuration files
-    - `models/` - Mongoose models
-    - `routes/` - API routes
-    - `middleware/` - Express middleware
+- `client/` - React frontend (Zustand auth, posts UI)
+- `server/` - Express + Prisma backend
+  - `prisma/schema.prisma` - User, Post, Like
+  - `src/routes/` - auth, users, posts, health
+  - `src/lib/prisma.ts` - Prisma client
 
 ### 7. stripe-integration/
-**Purpose**: Payment processing with Stripe
-- `package.json` - Dependencies and scripts
-- `tsconfig.json` - TypeScript configuration
-- `src/` - Source code directory
-  - `index.ts` - Application entry point
-  - `config/` - Configuration files (database, Stripe)
-  - `models/` - Data models (Payment, Product, Subscription, User)
+**Purpose**: Payment processing with Stripe (Prisma + PostgreSQL)
+- `prisma/schema.prisma` - User, Product, Payment, Subscription
+- `src/routes/` - auth, products, payments (PaymentIntent + Checkout), subscriptions, webhooks
+- `src/config/stripe.ts` - Stripe helpers
 - `README.md` - Documentation
 
 ### 8. docker-node/
-**Purpose**: Dockerized Node.js application
-- `package.json` - Dependencies and scripts
-- `Dockerfile` - Production Docker image
-- `Dockerfile.dev` - Development Docker image
-- `docker-compose.dev.yml` - Development Docker Compose
-- `docker-compose.prod.yml` - Production Docker Compose
-- `healthcheck.js` - Container health check
-- `nginx/` - Nginx configuration
-  - `nginx.conf` - Development Nginx config
-  - `nginx.prod.conf` - Production Nginx config
+**Purpose**: Dockerized Node.js + Prisma + PostgreSQL application
+- `Dockerfile` / `Dockerfile.dev`
+- `docker-compose.dev.yml` / `docker-compose.prod.yml` (Postgres + optional Nginx; no Redis/Mongo)
+- `prisma/schema.prisma` - Note model
+- `src/` - Express app with `/health` and `/api/notes`
+- `nginx/` - Reverse proxy configs
 - `README.md` - Documentation
 
 ### 9. crm-platform/

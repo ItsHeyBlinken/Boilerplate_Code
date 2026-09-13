@@ -276,8 +276,8 @@ main() {
     # Test full-stack projects
     echo -e "\n${BLUE}🏗️  Testing Full-Stack Projects${NC}"
     echo "----------------------------------------"
-    test_node_project "./boilerplate-library/mern-starter/server" "mern-starter-server"
-    test_react_project "./boilerplate-library/mern-starter/client" "mern-starter-client"
+    test_node_project "./boilerplate-library/pern-starter/server" "pern-starter-server"
+    test_react_project "./boilerplate-library/pern-starter/client" "pern-starter-client"
     test_node_project "./boilerplate-library/crm-platform/server" "crm-platform-server"
     test_react_project "./boilerplate-library/crm-platform/client" "crm-platform-client"
     test_node_project "./boilerplate-library/ecommerce-platform/server" "ecommerce-platform-server"

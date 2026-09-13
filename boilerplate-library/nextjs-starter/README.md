@@ -2,6 +2,22 @@
 
 A modern, production-ready Next.js 14 application with App Router, NextAuth.js authentication, Prisma database integration, and TypeScript. Perfect for building full-stack web applications with authentication and database management.
 
+
+## When you're ready to use this template
+
+This folder is a **starting point** only. You do **not** need to install packages, create databases, or run servers while it sits in the boilerplate library.
+
+When you are ready to build a real project from it:
+
+1. Copy this folder to your new project directory
+2. Run `npm install`
+3. Copy `.env.example` → `.env` and set `DATABASE_URL` plus auth secrets
+4. Apply the Prisma schema (`npx prisma migrate dev` or `db push`) against your PostgreSQL database
+5. Run `npm run dev`
+6. Customize pages, API routes, and models for your product
+
+Do not commit real API keys or passwords. Treat `.env` as local-only.
+
 ## 📋 Table of Contents
 
 - [Features](#features)

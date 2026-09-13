@@ -2,6 +2,21 @@
 
 A modern, production-ready Vue.js 3 application built with Vite, TypeScript, Pinia, and Tailwind CSS. Perfect for building fast, scalable frontend applications.
 
+
+## When you're ready to use this template
+
+This folder is a **starting point** only. You do **not** need to install packages, create databases, or run servers while it sits in the boilerplate library.
+
+When you are ready to build a real project from it:
+
+1. Copy this folder to your new project directory
+2. Run `npm install`
+3. Copy `.env.example` → `.env` if present and set any `VITE_*` values
+4. Run `npm run dev`
+5. Customize pages, Pinia stores, and components for your app
+
+Do not commit real API keys or passwords. Treat `.env` as local-only.
+
 ## 📋 Table of Contents
 
 - [Features](#features)

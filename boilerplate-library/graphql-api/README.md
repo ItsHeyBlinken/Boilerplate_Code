@@ -2,6 +2,22 @@
 
 A production-ready GraphQL API built with Apollo Server, TypeScript, Prisma, and PostgreSQL. Perfect for modern APIs that need flexible querying, type safety, and real-time capabilities.
 
+
+## When you're ready to use this template
+
+This folder is a **starting point** only. You do **not** need to install packages, create databases, or run servers while it sits in the boilerplate library.
+
+When you are ready to build a real project from it:
+
+1. Copy this folder to your new project directory
+2. Run `npm install`
+3. Copy `.env.example` → `.env` and set `DATABASE_URL` + JWT secrets
+4. Apply the Prisma schema (`npx prisma migrate dev` or `db push`) against your PostgreSQL database
+5. Run `npm run dev`
+6. Customize schema, resolvers, and auth for your GraphQL API
+
+Do not commit real API keys or passwords. Treat `.env` as local-only.
+
 ## 📋 Table of Contents
 
 - [Features](#features)

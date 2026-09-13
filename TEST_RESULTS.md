@@ -71,30 +71,30 @@
 - **Test Method**: Package.json analysis
 - **Recommendation**: Solid database foundation
 
-#### 6. **MERN Starter** - Full-Stack MongoDB
-- **Status**: ✅ **FULLY WORKING**
+#### 6. **PERN Starter** - Full-Stack PostgreSQL
+- **Status**: ✅ Updated 2026-09-13 (Phase B) — structure ready; runtime smoke pending
 - **Files Checked**:
-  - ✅ Server: Express + MongoDB + Mongoose
-  - ✅ Client: React frontend
-  - ✅ Complete CRUD operations
-  - ✅ Authentication system
-- **Features**: MongoDB, Express, React, Node.js
-- **Test Method**: Package.json analysis
-- **Recommendation**: Complete MERN stack solution
+  - ✅ Server: Express + Prisma + PostgreSQL
+  - ✅ Client: React + Zustand auth + posts UI
+  - ✅ Posts CRUD + like/unlike
+  - ✅ JWT authentication
+- **Features**: PostgreSQL, Prisma, Express, React, Node.js
+- **Test Method**: Structure review
+- **Recommendation**: Prefer for Postgres-first full-stack starters
 
 #### 7. **Stripe Integration** - Payment Processing
-- **Status**: ✅ **FULLY WORKING**
+- **Status**: ✅ Updated 2026-09-13 (Phase B) — Prisma/Postgres + Checkout + webhooks
 - **Files Checked**:
   - ✅ Stripe SDK integration
-  - ✅ Webhook handling
-  - ✅ Payment flow implementation
-  - ✅ TypeScript setup
-- **Features**: Stripe payments, webhooks, checkout
-- **Test Method**: Package.json analysis
-- **Recommendation**: Production-ready payment system
+  - ✅ Checkout Session + PaymentIntent
+  - ✅ Subscription create/cancel/resume
+  - ✅ Webhook handling (payment + subscription events)
+- **Features**: Stripe payments, webhooks, checkout, Prisma, PostgreSQL
+- **Test Method**: Structure review
+- **Recommendation**: Production-oriented payment API starter
 
 #### 8. **Docker Node** - Containerized Deployment
-- **Status**: ✅ **FULLY WORKING**
+- **Status**: ✅ Updated 2026-09-13 (Phase B) — Postgres Compose + Notes API
 - **Files Checked**:
   - ✅ Dockerfile for production
   - ✅ Dockerfile.dev for development

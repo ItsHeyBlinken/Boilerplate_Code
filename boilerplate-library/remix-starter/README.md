@@ -2,6 +2,22 @@
 
 A production-ready Remix application with TypeScript, Prisma, and modern web standards. Perfect for building fast, progressive web applications that work everywhere.
 
+
+## When you're ready to use this template
+
+This folder is a **starting point** only. You do **not** need to install packages, create databases, or run servers while it sits in the boilerplate library.
+
+When you are ready to build a real project from it:
+
+1. Copy this folder to your new project directory
+2. Run `npm install`
+3. Copy `.env.example` → `.env` and set `DATABASE_URL`
+4. Apply the Prisma schema (`npx prisma migrate dev` or `db push`) against your PostgreSQL database
+5. Run `npm run dev`
+6. Customize loaders, actions, and routes for your product
+
+Do not commit real API keys or passwords. Treat `.env` as local-only.
+
 ## 📋 Table of Contents
 
 - [Features](#features)

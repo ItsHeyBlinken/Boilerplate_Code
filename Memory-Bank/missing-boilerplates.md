@@ -6,7 +6,7 @@
 3. ✅ nextjs-starter - Next.js full-stack
 4. ✅ express-api - Express.js REST API
 5. ✅ node-postgres - Node.js with PostgreSQL/Prisma
-6. ✅ mern-starter - MERN stack
+6. ✅ pern-starter - PERN stack (PostgreSQL + Prisma)
 7. ✅ stripe-integration - Payment processing
 8. ✅ docker-node - Dockerized Node app
 9. ✅ crm-platform - CRM platform
