@@ -304,5 +304,20 @@ Created 6 new high-priority boilerplates with comprehensive documentation and co
 
 ---
 
+## Session 7 - Pass 1: Blog/CMS + Realtime Socket.io
+**Date**: 2026-09-13
+
+### Completed Tasks
+1. ✅ `blog-cms`: Next.js App Router + Prisma (User, Post DRAFT|PUBLISHED), cookie JWT auth, public list/detail, admin CRUD
+2. ✅ `realtime-socketio`: Express + Socket.io + Prisma (User, Room, Message); Vite React + Zustand; join/leave/chat + presence
+3. ✅ Root README tables, `simple-test.sh`, `test-boilerplates.sh` updated
+4. ✅ Memory Bank updated; Pass 2 marked next (SaaS + tRPC)
+
+### Deferred (Pass 2)
+- SaaS multi-tenant + Stripe subscriptions starter
+- tRPC starter
+
+---
+
 *This log tracks all completed work and changes made to the project.*
 

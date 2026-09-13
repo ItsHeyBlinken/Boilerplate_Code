@@ -265,6 +265,7 @@ main() {
     echo "----------------------------------------"
     test_react_project "./boilerplate-library/react-vite" "react-vite"
     test_react_project "./boilerplate-library/nextjs-starter" "nextjs-starter"
+    test_react_project "./boilerplate-library/blog-cms" "blog-cms"
     
     # Test Node.js API projects
     echo -e "\n${BLUE}🔧 Testing Node.js API Projects${NC}"
@@ -282,6 +283,8 @@ main() {
     test_react_project "./boilerplate-library/crm-platform/client" "crm-platform-client"
     test_node_project "./boilerplate-library/ecommerce-platform/server" "ecommerce-platform-server"
     test_react_project "./boilerplate-library/ecommerce-platform/client" "ecommerce-platform-client"
+    test_node_project "./boilerplate-library/realtime-socketio/server" "realtime-socketio-server"
+    test_react_project "./boilerplate-library/realtime-socketio/client" "realtime-socketio-client"
     
     # Test Docker projects
     echo -e "\n${BLUE}🐳 Testing Docker Projects${NC}"

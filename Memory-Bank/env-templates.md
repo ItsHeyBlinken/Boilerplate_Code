@@ -215,6 +215,31 @@ STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key
 VITE_API_URL=/api
 ```
 
+## blog-cms/.env.example
+```bash
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/blog_cms?schema=public
+JWT_SECRET=change-me-in-production
+NEXT_PUBLIC_APP_NAME=Blog CMS
+```
+
+## realtime-socketio/.env.example
+
+### Server (.env)
+```bash
+NODE_ENV=development
+PORT=4000
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/realtime_socketio?schema=public
+JWT_SECRET=change-me-in-production
+JWT_EXPIRES_IN=7d
+CORS_ORIGIN=http://localhost:5173
+```
+
+### Client (.env)
+```bash
+VITE_API_URL=http://localhost:4000/api
+VITE_SOCKET_URL=http://localhost:4000
+```
+
 ## react-vite/.env.example
 ```bash
 # API Configuration

@@ -125,6 +125,21 @@
   - `src/routes/` - auth, users, products, categories, cart, orders, payments
   - Thin Stripe PaymentIntent endpoint
 
+### 11. blog-cms/
+**Purpose**: Lean Next.js App Router blog + minimal CMS on PostgreSQL + Prisma
+- `prisma/schema.prisma` - User, Post (DRAFT|PUBLISHED)
+- `src/app/` - public list/detail, login/register, admin CRUD, API auth/posts
+- `src/lib/` - prisma, auth (jose cookie JWT), password
+- `src/components/SiteHeader.tsx`
+- `.env.example`, README with ready-to-use steps
+
+### 12. realtime-socketio/
+**Purpose**: Lean realtime chat/presence on Express + Socket.io + Prisma
+- `server/prisma/schema.prisma` - User, Room, Message
+- `server/src/` - auth/rooms HTTP routes; socket handlers (join/leave/chat + presence)
+- `client/` - Vite React + Zustand + socket.io-client (rooms list, chat page)
+- Root `npm run dev` runs client + server concurrently
+
 ## Common File Patterns
 
 ### Configuration Files (Common Across Projects)
