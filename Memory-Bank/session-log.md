@@ -360,6 +360,7 @@ Created 6 new high-priority boilerplates with comprehensive documentation and co
 #### Follow-up
 - ✅ Docker Compose deploy path: root `Dockerfile` + `docker-compose.yml` + `showcase/nginx.conf`
 - ✅ Docs: git pull deploy branch → `docker compose up -d --build` (ZIPs built in-image)
+- ✅ Live on VPS: build stage **`runtime`**, internal port **3000**
 
 ---
 
