@@ -317,6 +317,9 @@ Created 6 new high-priority boilerplates with comprehensive documentation and co
 - SaaS multi-tenant + Stripe subscriptions starter
 - tRPC starter
 
+#### Follow-up
+- ✅ blog-cms `tsconfig.json`: `target` es5 → ES2017 (TS 6 deprecation)
+
 ---
 
 *This log tracks all completed work and changes made to the project.*
