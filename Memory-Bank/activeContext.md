@@ -18,7 +18,7 @@
 3. `PROJECT_USE_CASES.md` remains editorial source of truth
 
 ## Next Steps
-1. On VPS: pull deploy branch, `docker compose up -d --build`, open :8080
+1. On VPS: pull deploy branch, `docker compose up -d --build`, domain internal port **3000**
 2. Optional local smoke tests when adopting templates
 
 ## Known Gaps

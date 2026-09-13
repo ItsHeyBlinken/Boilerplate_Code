@@ -28,6 +28,6 @@ FROM nginx:1.27-alpine AS runtime
 COPY showcase/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/showcase/dist /usr/share/nginx/html
 
-EXPOSE 80
+EXPOSE 3000
 
 CMD ["nginx", "-g", "daemon off;"]

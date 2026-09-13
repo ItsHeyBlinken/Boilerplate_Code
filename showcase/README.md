@@ -13,12 +13,14 @@ git pull
 docker compose up -d --build
 ```
 
-Site: `http://YOUR_VPS:8080` (override with `SHOWCASE_PORT=80` or put a reverse proxy in front).
+Site: `http://YOUR_VPS:3000` (or your domain). Internal/container port is **3000** to match common panel defaults.
 
 ```bash
-# optional port
-SHOWCASE_PORT=80 docker compose up -d --build
+# optional host port mapping (still targets container :3000)
+SHOWCASE_PORT=8080 docker compose up -d --build
 ```
+
+On Domains / proxy settings, set the **internal port to 3000**.
 
 Rebuild after you change templates or `PROJECT_USE_CASES.md`.
 

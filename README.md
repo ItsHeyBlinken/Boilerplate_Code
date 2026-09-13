@@ -14,7 +14,7 @@ Browse ranked project ideas and download template ZIPs.
 docker compose up -d --build
 ```
 
-Serves on port **8080** by default (`SHOWCASE_PORT` to override). See [showcase/README.md](./showcase/README.md).
+Serves on port **3000** by default (set domain/internal port to **3000**). See [showcase/README.md](./showcase/README.md).
 
 **Local UI:** `npm run showcase:install` then `npm run showcase:dev`.
 

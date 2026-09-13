@@ -5,6 +5,7 @@ services:
       dockerfile: Dockerfile
     image: boilerplate-showcase:latest
     container_name: boilerplate-showcase
+    # Platform/internal port is 3000 (nginx listens on 3000 in-container)
     ports:
-      - "${SHOWCASE_PORT:-8080}:80"
+      - "${SHOWCASE_PORT:-3000}:3000"
     restart: unless-stopped
