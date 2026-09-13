@@ -66,6 +66,9 @@
     "tsx": "^4.6.2",
     "typescript": "^5.3.2"
   },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "keywords": [
     "nestjs",
     "typescript",

@@ -1,53 +1,33 @@
 # Active Context: Current Work Focus
 
 ## Current Session Focus
-**Date**: Current Session  
-**Primary Tasks**: 
-1. ✅ Creating Memory-Bank documentation structure
-2. ✅ Reviewing and improving boilerplate quality
-3. ✅ Fixing missing configuration files (.gitignore added, .env.example templates documented)
-4. ✅ Ensuring consistency across all boilerplates
-5. ✅ Creating 6 high-priority missing boilerplates
-6. ✅ Adding comprehensive code comments and use case documentation
-7. ✅ Updating main README with all boilerplates
-8. ✅ Creating creative project use cases document with 60+ unique ideas
+**Date**: 2026-09-13  
+**Primary Tasks**:
+1. ✅ Repo checkup after long absence
+2. ✅ Flesh out stub boilerplates (Phase A)
+3. ⏳ Phase B thicken partials (mern, stripe, docker) — deferred to next pass
+4. ⏳ New templates (SaaS, realtime, etc.) — deferred until library is solid
 
 ## Recent Changes
-- ✅ Memory-Bank documentation structure created with all core files
-- ✅ .gitignore files added to all 12 boilerplates
-- ✅ Environment variable templates documented in env-templates.md
-- ✅ Package.json files verified as complete and consistent
-- ✅ Configuration files verified (tsconfig.json, vite.config.ts, etc.)
+- ✅ `vue-vite` expanded to runnable Vue 3 + Vite + Pinia + Router + Tailwind starter
+- ✅ `remix-starter` expanded with routes, Tailwind, Prisma posts + demo fallback
+- ✅ `serverless-functions` expanded with Vercel/Netlify/AWS handlers + shared helpers
+- ✅ `monorepo-turborepo` expanded with `apps/web`, `apps/api`, `packages/shared`
+- ✅ `nestjs-starter` expanded with Prisma, auth, users, health, Swagger
+- ✅ Added `.env.example` for vue-vite, remix, nestjs, serverless, monorepo, react-vite, graphql-api
+- ✅ Updated `simple-test.sh` to include the 6 newer boilerplates
 
 ## Active Decisions
-1. **Memory-Bank Structure**: ✅ Comprehensive documentation created following user rules
-2. **File Standardization**: ✅ .gitignore files added to all boilerplates
-3. **Environment Variables**: ✅ Templates documented (files blocked from auto-creation, need manual creation)
-4. **Quality Assurance**: ✅ All boilerplates reviewed for consistency and completeness
+1. **Node/TS web focus** — no mobile templates for now
+2. **Finish current library before new templates**
+3. **Defaults**: Remix keeps lean Prisma; monorepo = web+api+shared; NestJS = JWT+users+health+Swagger
 
 ## Next Steps
-1. ✅ Create Memory-Bank directory structure
-2. ✅ Review and document .env.example templates (manual creation needed)
-3. ✅ Review and add missing .gitignore files
-4. ✅ Verify package.json completeness
-5. ✅ Check configuration file consistency
-6. ✅ Update Memory-Bank with session log
-7. ⏳ Create .env.example files manually using documented templates
-8. ⏳ Run validation tests to confirm improvements
+1. Phase B: thicken `mern-starter`, `stripe-integration`, `docker-node` if needed
+2. Optionally add new templates (realtime/Socket.io, SaaS, tRPC)
+3. User-run installs/smoke tests with local Postgres where required
 
-## Current Considerations
-- **Consistency**: Ensuring all boilerplates follow similar patterns
-- **Completeness**: Making sure all referenced files actually exist
-- **Documentation**: Ensuring README files match actual implementation
-- **Testing**: Validating that test scripts work correctly
-
-## Active Issues
-- Some README files reference .env.example files that don't exist
-- Most boilerplates are missing .gitignore files
-- Need to verify all package.json files are complete and consistent
-
-## Work in Progress
-- Memory-Bank documentation creation
-- Boilerplate quality review
-- Configuration file standardization
-
+## Known Gaps
+- Full runtime smoke tests (install + DB migrate + boot) not fully executed in this session
+- `vue-tsc` bumped to v2 for Node compatibility; re-verify after install
+- Phase B partials not yet revisited

@@ -215,5 +215,38 @@ Created 6 new high-priority boilerplates with comprehensive documentation and co
 
 ---
 
+## Session 4 - Flesh Out Stub Boilerplates
+**Date**: 2026-09-13
+
+### Completed Tasks
+
+#### 1. Repo Re-entry Checkup ✅
+- Reviewed Memory Bank and all 16 boilerplates
+- Identified stubs vs solid templates
+- Agreed plan: finish current library before new templates; Node/TS web only for now
+
+#### 2. Phase A Stub Expansion ✅
+- **vue-vite**: Full Vue 3 + Vite + TS + Pinia + Vue Router + Tailwind app (Home/About/Dashboard/404)
+- **remix-starter**: Remix Vite app with Tailwind, Prisma Post model, posts routes + DB demo fallback
+- **serverless-functions**: Shared helpers + Vercel/Netlify/AWS health+hello handlers
+- **monorepo-turborepo**: Turborepo workspaces with apps/web, apps/api, packages/shared
+- **nestjs-starter**: Prisma User model, JWT auth, users, health, Swagger
+
+#### 3. Hygiene ✅
+- Added `.env.example` files for newly fleshed templates plus react-vite and graphql-api
+- Updated `simple-test.sh` project list to include newer boilerplates
+- Bumped `vue-tsc` to v2 for newer Node compatibility
+
+### Deferred
+- Phase B thicken: mern-starter, stripe-integration, docker-node
+- New templates: realtime, SaaS, tRPC, etc.
+
+#### 4. tsconfig.json Fixes ✅
+- Fixed invalid JSON in 8 tsconfig files (leading JSDoc blocks and inline `/* */` comments)
+- Affected: react-vite, mern-starter/client, crm-platform client/server, ecommerce-platform client/server
+- Removed unused vue-vite/tsconfig.app.json to avoid composite/noEmit conflicts
+
+---
+
 *This log tracks all completed work and changes made to the project.*
 

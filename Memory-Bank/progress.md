@@ -2,29 +2,29 @@
 
 ## What Works ✅
 
-### Completed Boilerplates (16/16)
+### Completed Boilerplates (16/16) — Phase A fleshed out 2026-09-13
 1. **HTML/CSS/JS** - Fully functional static landing page
 2. **Express API** - Complete REST API with JWT auth and PostgreSQL
 3. **React Vite** - Modern React app with routing and state management
 4. **Next.js Starter** - Full-stack React with API routes and auth
 5. **Node PostgreSQL** - Database starter with Prisma and migrations
-6. **MERN Starter** - Full-stack MongoDB + Express + React + Node
-7. **Stripe Integration** - Payment processing with webhooks
-8. **Docker Node** - Containerized deployment setup
+6. **MERN Starter** - Full-stack MongoDB + Express + React + Node (Phase B review pending)
+7. **Stripe Integration** - Payment processing with webhooks (Phase B review pending)
+8. **Docker Node** - Containerized deployment setup (Phase B review pending)
 9. **CRM Platform** - Complete CRM with client and server
 10. **E-commerce Platform** - Full e-commerce solution
-11. **GraphQL API** - GraphQL API with Apollo Server and Prisma ⭐ NEW
-12. **NestJS Starter** - Enterprise Node.js framework ⭐ NEW
-13. **Vue.js Vite** - Vue 3 app with Composition API and Pinia ⭐ NEW
-14. **Remix Starter** - Full-stack React framework ⭐ NEW
-15. **Serverless Functions** - Serverless templates for AWS, Vercel, Netlify ⭐ NEW
-16. **Monorepo Turborepo** - Monorepo setup with Turborepo ⭐ NEW
+11. **GraphQL API** - GraphQL API with Apollo Server and Prisma
+12. **NestJS Starter** - NestJS + Prisma + JWT auth + users + health + Swagger ✅ fleshed out
+13. **Vue.js Vite** - Vue 3 + Pinia + Router + Tailwind ✅ fleshed out
+14. **Remix Starter** - Remix + Tailwind + Prisma posts ✅ fleshed out
+15. **Serverless Functions** - Vercel/Netlify/AWS handlers ✅ fleshed out
+16. **Monorepo Turborepo** - web + api + shared packages ✅ fleshed out
 
 ### Infrastructure
 - ✅ Comprehensive README files for all boilerplates
-- ✅ Testing scripts (simple-test.sh, test-boilerplates.sh)
+- ✅ Testing scripts (simple-test.sh includes all 16 roots)
 - ✅ Testing documentation (TESTING_GUIDE.md)
-- ✅ Test results tracking (TEST_RESULTS.md)
+- ✅ Test results tracking (TEST_RESULTS.md — needs refresh)
 - ✅ Root README with overview and usage instructions
 
 ### Documentation
@@ -36,70 +36,44 @@
 
 ## What Needs Review ⚠️
 
-### Projects Needing Review (2/12)
-1. **React Vite** - Needs configuration verification
-2. **Next.js Starter** - Needs database setup verification
+### Phase B (next)
+1. **MERN Starter** - Confirm client/server end-to-end completeness
+2. **Stripe Integration** - Confirm checkout + webhook wiring
+3. **Docker Node** - Confirm Compose boots a real app
 
-### Missing Files
-- ⚠️ `.env.example` files missing in several boilerplates (referenced in READMEs but don't exist)
-- ⚠️ `.gitignore` files missing in most boilerplates
-- ⚠️ Need to verify all referenced files actually exist
+### Hygiene
+- ✅ `.gitignore` present on boilerplates
+- ✅ `.env.example` added for previously missing high-priority templates
+- ⏳ Full install/runtime smoke tests still manual
 
 ## Current Status
 
-### Test Results (from TEST_RESULTS.md)
-- **Working**: 10 projects (83%)
-- **Needs Review**: 2 projects (17%)
-- **Broken**: 0 projects (0%)
-
-### Quality Metrics
-- **Documentation**: Comprehensive READMEs for all projects
-- **Code Quality**: TypeScript, ESLint configured
-- **Testing**: Test scripts available
-- **Consistency**: Similar patterns across projects
-
-## Known Issues
-
-### Configuration Issues
-1. **Missing .env.example files**: ✅ Templates documented in Memory-Bank/env-templates.md (files need manual creation due to system restrictions)
-2. **Missing .gitignore files**: ✅ Fixed - All boilerplates now have .gitignore files
-3. **Package.json consistency**: ✅ Verified - All package.json files are complete and consistent
-
-### Documentation Issues
-1. Some README files reference files that may not exist
-2. Environment variable examples may not match actual requirements
-3. Setup instructions may need verification
+### Quality after Phase A
+- Former stubs (`vue-vite`, `remix-starter`, `serverless-functions`, `monorepo-turborepo`) now have real source
+- `nestjs-starter` no longer empty beyond main/app.module
 
 ## What's Left to Build
 
-### Immediate Tasks
-1. ✅ Create Memory-Bank documentation structure
-2. ⏳ Add missing .env.example files to all boilerplates
-3. ⏳ Add .gitignore files to all boilerplates
-4. ⏳ Verify package.json completeness across all projects
-5. ⏳ Verify all configuration files exist and are correct
-6. ⏳ Run test scripts to validate all boilerplates
+### Immediate
+1. ✅ Flesh Phase A stubs
+2. ⏳ Phase B thicken partials
+3. ⏳ Refresh TEST_RESULTS.md after smoke tests
 
 ### Future Enhancements
-1. Add more boilerplate types (GraphQL, Serverless, etc.)
-2. Add CI/CD configuration examples
-3. Add more comprehensive test suites
-4. Add Docker configurations to more boilerplates
-5. Add deployment guides for various platforms
-6. Add example implementations for common features
+1. Real-time Socket.io boilerplate
+2. SaaS starter (multi-tenant + Stripe)
+3. tRPC starter
+4. CI/CD GitHub Actions templates
+5. Later: Expo mobile starter (user requested after web library is solid)
 
 ## Current Priorities
-1. **File Completeness**: Ensure all referenced files exist
-2. **Consistency**: Standardize patterns across all boilerplates
-3. **Documentation**: Verify README accuracy
-4. **Testing**: Ensure test scripts work correctly
-5. **Quality**: Fix any identified issues
+1. **Phase B completeness** for mern/stripe/docker
+2. **Smoke testing** each fleshed boilerplate locally
+3. **Then** new high-value templates
 
 ## Success Indicators
-- ✅ All boilerplates have comprehensive READMEs
-- ✅ Testing infrastructure in place
-- ✅ Consistent patterns across projects
-- ⏳ All referenced files exist
-- ⏳ All boilerplates pass structure tests
-- ⏳ Environment variable templates complete
+- ✅ Stub boilerplates expanded with runnable source
+- ✅ NestJS auth/users/health implemented
+- ⏳ All boilerplates pass local install + boot smoke tests
+- ⏳ Phase B partials reviewed
 

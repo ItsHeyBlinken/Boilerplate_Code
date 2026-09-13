@@ -194,6 +194,12 @@ main() {
         "nextjs-starter"
         "react-vite"
         "docker-node"
+        "vue-vite"
+        "remix-starter"
+        "nestjs-starter"
+        "graphql-api"
+        "serverless-functions"
+        "monorepo-turborepo"
     )
     
     for project in "${node_projects[@]}"; do

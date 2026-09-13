@@ -65,6 +65,9 @@ const limiter = rateLimit({
 
 app.use(`${API_PREFIX}/`, limiter)
 
+// Stripe webhooks need the raw body for signature verification
+app.use(`${API_PREFIX}/webhooks`, express.raw({ type: 'application/json' }), webhookRoutes)
+
 // Body parsing middleware
 app.use(express.json({ limit: '10mb' }))
 app.use(express.urlencoded({ extended: true, limit: '10mb' }))
@@ -100,7 +103,6 @@ app.use(`${API_PREFIX}/users`, userRoutes)
 app.use(`${API_PREFIX}/products`, productRoutes)
 app.use(`${API_PREFIX}/payments`, paymentRoutes)
 app.use(`${API_PREFIX}/subscriptions`, subscriptionRoutes)
-app.use(`${API_PREFIX}/webhooks`, webhookRoutes)
 app.use(`${API_PREFIX}/health`, healthRoutes)
 
 // API documentation route
