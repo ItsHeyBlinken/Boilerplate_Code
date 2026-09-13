@@ -2,6 +2,13 @@
 
 ## Root Level Files
 - `README.md` - Main project overview and usage guide
+- `package.json` - Root scripts for showcase sync/pack/build/docker
+- `.gitignore` - Ignores node_modules, showcase dist, generated ZIPs
+- `Dockerfile` / `docker-compose.yml` / `.dockerignore` - Showcase VPS container (nginx + packed ZIPs)
+- `PROJECT_USE_CASES.md` - Ranked collapsible project ideas (source of truth)
+- `scripts/pack-templates.mjs` - Zip each boilerplate into showcase downloads
+- `scripts/sync-use-cases.mjs` - Parse use-cases MD → showcase JSON
+- `showcase/` - Vite React UI + `nginx.conf` for container
 - `TESTING_GUIDE.md` - Comprehensive testing documentation
 - `TEST_RESULTS.md` - Test results and status for all boilerplates
 - `test-boilerplates.sh` - Docker-based comprehensive testing script

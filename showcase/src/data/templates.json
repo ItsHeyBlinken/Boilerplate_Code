@@ -1,0 +1,144 @@
+{
+  "templates": [
+    {
+      "id": "html-css-js",
+      "name": "Static HTML/CSS/JS",
+      "category": "Frontend",
+      "downloadPath": "/downloads/html-css-js.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "react-vite",
+      "name": "React Vite",
+      "category": "Frontend",
+      "downloadPath": "/downloads/react-vite.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "vue-vite",
+      "name": "Vue.js Vite",
+      "category": "Frontend",
+      "downloadPath": "/downloads/vue-vite.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "nextjs-starter",
+      "name": "Next.js Starter",
+      "category": "Frontend",
+      "downloadPath": "/downloads/nextjs-starter.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "remix-starter",
+      "name": "Remix Starter",
+      "category": "Frontend",
+      "downloadPath": "/downloads/remix-starter.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "express-api",
+      "name": "Express API",
+      "category": "Backend",
+      "downloadPath": "/downloads/express-api.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "graphql-api",
+      "name": "GraphQL API",
+      "category": "Backend",
+      "downloadPath": "/downloads/graphql-api.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "nestjs-starter",
+      "name": "NestJS Starter",
+      "category": "Backend",
+      "downloadPath": "/downloads/nestjs-starter.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "node-postgres",
+      "name": "Node PostgreSQL",
+      "category": "Backend",
+      "downloadPath": "/downloads/node-postgres.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "serverless-functions",
+      "name": "Serverless Functions",
+      "category": "Backend",
+      "downloadPath": "/downloads/serverless-functions.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "pern-starter",
+      "name": "PERN Starter",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/pern-starter.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "crm-platform",
+      "name": "CRM Platform",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/crm-platform.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "ecommerce-platform",
+      "name": "E-commerce Platform",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/ecommerce-platform.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "blog-cms",
+      "name": "Blog / CMS",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/blog-cms.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "realtime-socketio",
+      "name": "Realtime Socket.io",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/realtime-socketio.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "saas-starter",
+      "name": "SaaS Starter",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/saas-starter.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "trpc-starter",
+      "name": "tRPC Starter",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/trpc-starter.zip",
+      "projectCount": 5
+    },
+    {
+      "id": "stripe-integration",
+      "name": "Stripe Integration",
+      "category": "Infrastructure",
+      "downloadPath": "/downloads/stripe-integration.zip",
+      "projectCount": 3
+    },
+    {
+      "id": "docker-node",
+      "name": "Docker Node",
+      "category": "Infrastructure",
+      "downloadPath": "/downloads/docker-node.zip",
+      "projectCount": 2
+    },
+    {
+      "id": "monorepo-turborepo",
+      "name": "Monorepo Turborepo",
+      "category": "Infrastructure",
+      "downloadPath": "/downloads/monorepo-turborepo.zip",
+      "projectCount": 2
+    }
+  ]
+}

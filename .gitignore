@@ -1,0 +1,9 @@
+node_modules/
+showcase/node_modules/
+showcase/dist/
+showcase/public/downloads/*.zip
+showcase/public/downloads/.*.filelist
+.DS_Store
+*.log
+.env
+.env.*

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-ink-50 text-ink-900 antialiased;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(61, 107, 79, 0.14), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(212, 196, 168, 0.25), transparent),
+    linear-gradient(180deg, #f3f6f4 0%, #e8eee9 100%);
+  font-family: 'Sora', system-ui, sans-serif;
+}

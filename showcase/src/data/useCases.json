@@ -1,0 +1,2004 @@
+{
+  "stacks": [
+    {
+      "name": "Static HTML/CSS/JS",
+      "templateId": "html-css-js",
+      "category": "Frontend",
+      "downloadPath": "/downloads/html-css-js.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Interactive Resume Builder with Export",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "A single-page application where users can build visually stunning resumes with drag-and-drop sections, then export as PDF.",
+          "features": [
+            "Drag-and-drop resume sections",
+            "Real-time preview",
+            "Multiple template designs",
+            "PDF export functionality",
+            "Print-optimized layouts"
+          ],
+          "targetAudience": "Job seekers, freelancers, career changers",
+          "why": "Perfect for a lightweight, fast-loading single-page experience that works offline. No framework overhead needed.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Premium templates, advanced export options"
+        },
+        {
+          "number": 2,
+          "title": "Animated Product Showcase for Kickstarter Campaigns",
+          "recommendation": "A",
+          "tierSummary": "Tier 2–3",
+          "description": "A visually stunning landing page with scroll-triggered animations showcasing a product's features, story, and impact.",
+          "features": [
+            "Scroll-triggered animations",
+            "Product feature highlights",
+            "Timeline of development",
+            "Backer counter with animations",
+            "Social proof integration"
+          ],
+          "targetAudience": "Kickstarter creators, product launches, startups",
+          "why": "Static HTML allows for maximum performance and SEO, while CSS animations create engaging experiences.",
+          "complexity": "Beginner to Intermediate",
+          "difficultyTier": "Tier 2–3",
+          "recommendationField": "A",
+          "monetization": "Template marketplace, custom design services"
+        },
+        {
+          "number": 3,
+          "title": "Micro-Interaction Playground for Designers",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A collection of micro-interactions and UI animations that designers can preview, customize, and copy code for.",
+          "features": [
+            "Library of micro-interactions",
+            "Live code preview",
+            "Customization controls",
+            "Code export (CSS/JS)",
+            "Category filtering"
+          ],
+          "targetAudience": "UI/UX designers, frontend developers",
+          "why": "Pure HTML/CSS/JS showcases the power of vanilla web technologies without framework dependencies.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Premium interaction library, design tool integration"
+        },
+        {
+          "number": 4,
+          "title": "Single-Page Event Landing with RSVP",
+          "recommendation": "B",
+          "tierSummary": "Tier 2",
+          "description": "Beautiful event landing pages with integrated RSVP functionality, guest lists, and social sharing.",
+          "features": [
+            "Event details with countdown timer",
+            "RSVP form with guest management",
+            "Interactive venue map",
+            "Social sharing buttons",
+            "Email confirmation system"
+          ],
+          "targetAudience": "Event organizers, wedding planners, community organizers",
+          "why": "Fast loading, SEO-friendly, works on all devices without heavy JavaScript frameworks.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "B",
+          "monetization": "Template marketplace, premium features"
+        },
+        {
+          "number": 5,
+          "title": "Portfolio Showcase with Case Study Narratives",
+          "recommendation": "C",
+          "tierSummary": "Tier 2",
+          "description": "An immersive storytelling experience where designers/developers can showcase projects with interactive case studies.",
+          "features": [
+            "Scroll-based storytelling",
+            "Project galleries with lightboxes",
+            "Interactive case study narratives",
+            "Skills visualization",
+            "Contact form integration"
+          ],
+          "targetAudience": "Creative professionals, freelancers, agencies",
+          "why": "Perfect for showcasing visual work with smooth animations and fast load times.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "C",
+          "monetization": "Premium templates, hosting services"
+        }
+      ]
+    },
+    {
+      "name": "React Vite",
+      "templateId": "react-vite",
+      "category": "Frontend",
+      "downloadPath": "/downloads/react-vite.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Personal Habit Tracker with Visual Progress Maps",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "A habit tracking app that visualizes progress through interactive maps, heatmaps, and pattern recognition.",
+          "features": [
+            "Calendar heatmap visualization",
+            "Streak tracking with visual indicators",
+            "Pattern recognition (best days/times)",
+            "Custom habit categories",
+            "Progress analytics dashboard"
+          ],
+          "targetAudience": "Self-improvement enthusiasts, productivity seekers",
+          "why": "React's component system perfect for reusable visualization components, Vite's fast dev experience.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Premium analytics, habit templates, community features"
+        },
+        {
+          "number": 2,
+          "title": "Local Food Truck Finder with Real-time Locations",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A community-driven app showing real-time locations of food trucks, menus, and wait times.",
+          "features": [
+            "Real-time GPS tracking",
+            "Interactive map with truck locations",
+            "Menu browsing with dietary filters",
+            "Wait time estimates",
+            "Favorites and notifications"
+          ],
+          "targetAudience": "Food enthusiasts, urban dwellers, food truck operators",
+          "why": "React's state management perfect for real-time updates, Vite enables fast development.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Featured listings for trucks, premium features"
+        },
+        {
+          "number": 3,
+          "title": "Skill Swap Marketplace",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A platform where people can exchange skills (teach coding, learn guitar) instead of money.",
+          "features": [
+            "Skill listing and matching",
+            "Exchange scheduling system",
+            "Rating and review system",
+            "Messaging between users",
+            "Skill verification badges"
+          ],
+          "targetAudience": "Lifelong learners, community builders, skill enthusiasts",
+          "why": "React's component architecture perfect for matching algorithms and user interactions.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Premium matching, verified skills, featured listings"
+        },
+        {
+          "number": 4,
+          "title": "Personal Finance Dashboard with Spending Patterns",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "A personal finance tracker that visualizes spending patterns, predicts future expenses, and suggests optimizations.",
+          "features": [
+            "Transaction categorization",
+            "Spending pattern visualization",
+            "Budget forecasting",
+            "Bill reminder system",
+            "Financial goal tracking"
+          ],
+          "targetAudience": "Budget-conscious individuals, financial planners",
+          "why": "React's data visualization capabilities perfect for charts and graphs, fast updates.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "Premium features, bank integration, financial advisor connections"
+        },
+        {
+          "number": 5,
+          "title": "Learning Path Tracker for Self-Taught Developers",
+          "recommendation": "B",
+          "tierSummary": "Tier 1–2",
+          "description": "A platform for self-taught developers to track learning progress, create custom paths, and share resources.",
+          "features": [
+            "Custom learning path creation",
+            "Progress tracking with milestones",
+            "Resource library (articles, videos, courses)",
+            "Community sharing",
+            "Skill assessment quizzes"
+          ],
+          "targetAudience": "Self-taught developers, career switchers, coding bootcamp students",
+          "why": "React's component system perfect for modular learning modules and progress tracking.",
+          "complexity": "Intermediate to Advanced",
+          "difficultyTier": "Tier 1–2",
+          "recommendationField": "B",
+          "monetization": "Premium paths, certification, job board integration"
+        }
+      ]
+    },
+    {
+      "name": "Vue.js Vite",
+      "templateId": "vue-vite",
+      "category": "Frontend",
+      "downloadPath": "/downloads/vue-vite.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Collaborative Story Builder",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A platform where multiple authors can collaborate on stories, with real-time editing and version control.",
+          "features": [
+            "Real-time collaborative editing",
+            "Character and plot tracking",
+            "Version history and branching",
+            "Comment and suggestion system",
+            "Export to various formats"
+          ],
+          "targetAudience": "Writers, writing groups, creative writing classes",
+          "why": "Vue's reactivity perfect for real-time updates, Composition API great for complex state management.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Premium features, publishing tools, writing courses"
+        },
+        {
+          "number": 2,
+          "title": "Music Discovery Dashboard with Mood-Based Playlists",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A music discovery platform that creates playlists based on mood, activity, and listening patterns.",
+          "features": [
+            "Mood-based playlist generation",
+            "Activity-specific playlists (workout, study, sleep)",
+            "Listening pattern analysis",
+            "Social sharing of playlists",
+            "Integration with music services"
+          ],
+          "targetAudience": "Music enthusiasts, playlist creators, music curators",
+          "why": "Vue's reactive system perfect for dynamic playlist updates, smooth UI interactions.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Premium features, music service partnerships, curated playlists"
+        },
+        {
+          "number": 3,
+          "title": "Mood Tracking Journal with Visualizations",
+          "recommendation": "B",
+          "tierSummary": "Tier 2",
+          "description": "A journaling app that tracks mood patterns, identifies triggers, and provides insights through data visualization.",
+          "features": [
+            "Daily mood logging with notes",
+            "Mood pattern visualization",
+            "Trigger identification",
+            "Journal entry search",
+            "Export and sharing options"
+          ],
+          "targetAudience": "Mental health enthusiasts, therapists, self-reflection seekers",
+          "why": "Vue's component system perfect for reusable journal components, smooth animations.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "B",
+          "monetization": "Premium analytics, therapist integration, guided journaling"
+        },
+        {
+          "number": 4,
+          "title": "Local Business Discovery with Community Reviews",
+          "recommendation": "B",
+          "tierSummary": "Tier 1–2",
+          "description": "A hyperlocal platform for discovering and reviewing small businesses in your neighborhood.",
+          "features": [
+            "Neighborhood business directory",
+            "Community-written reviews",
+            "Business owner responses",
+            "Local event integration",
+            "Support local campaigns"
+          ],
+          "targetAudience": "Local business supporters, community members, small business owners",
+          "why": "Vue's reactive updates perfect for real-time reviews, smooth filtering and search.",
+          "complexity": "Intermediate to Advanced",
+          "difficultyTier": "Tier 1–2",
+          "recommendationField": "B",
+          "monetization": "Featured listings, premium business profiles, advertising"
+        },
+        {
+          "number": 5,
+          "title": "Creative Project Showcase Platform",
+          "recommendation": "C",
+          "tierSummary": "Tier 2",
+          "description": "A platform for creative professionals to showcase projects with interactive galleries and case studies.",
+          "features": [
+            "Interactive project galleries",
+            "Case study narratives",
+            "Client testimonial integration",
+            "Project filtering and search",
+            "Contact and inquiry system"
+          ],
+          "targetAudience": "Creative professionals, agencies, freelancers",
+          "why": "Vue's smooth animations perfect for gallery interactions, component reusability.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "C",
+          "monetization": "Premium portfolios, featured listings, job board integration"
+        }
+      ]
+    },
+    {
+      "name": "Next.js Starter",
+      "templateId": "nextjs-starter",
+      "category": "Frontend",
+      "downloadPath": "/downloads/nextjs-starter.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Community Recipe Exchange with Dietary Filters",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "A platform where community members share recipes with advanced filtering for dietary restrictions and preferences.",
+          "features": [
+            "Recipe sharing with photos",
+            "Advanced dietary filters (vegan, gluten-free, keto, etc.)",
+            "Ingredient substitution suggestions",
+            "Meal planning integration",
+            "Community ratings and comments"
+          ],
+          "targetAudience": "Home cooks, dietary-restricted individuals, food communities",
+          "why": "Next.js SSR perfect for SEO (recipes are searchable), API routes for recipe management.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Premium features, cookbook creation, ingredient partnerships"
+        },
+        {
+          "number": 2,
+          "title": "Local Event Discovery with RSVP and Waitlists",
+          "recommendation": "A",
+          "tierSummary": "Tier 1–2",
+          "description": "A platform for discovering local events with integrated RSVP, waitlist management, and community features.",
+          "features": [
+            "Event discovery with filters",
+            "RSVP system with capacity management",
+            "Waitlist for full events",
+            "Event recommendations",
+            "Community event creation"
+          ],
+          "targetAudience": "Event-goers, community organizers, local businesses",
+          "why": "Next.js perfect for SEO (events need to be discoverable), API routes for RSVP management.",
+          "complexity": "Intermediate to Advanced",
+          "difficultyTier": "Tier 1–2",
+          "recommendationField": "A",
+          "monetization": "Featured events, premium organizer tools, ticketing integration"
+        },
+        {
+          "number": 3,
+          "title": "Mutual Aid Request Board with Geo Filters",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A neighborhood mutual-aid board where residents post needs and offers, with SEO-friendly public pages and authenticated posting via API routes.",
+          "features": [
+            "Public need/offer listings with geo filters",
+            "Category tags (food, transport, childcare, tools)",
+            "Claim/fulfill workflow",
+            "Moderator tools for spam",
+            "Shareable SSR pages per request"
+          ],
+          "targetAudience": "Mutual aid groups, neighborhood organizers, community nonprofits",
+          "why": "Next.js SSR/SEO helps requests get discovered; API routes handle claims without a separate backend.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Nonprofit implementation fees, city/partner sponsorships, premium moderation tools"
+        },
+        {
+          "number": 4,
+          "title": "Neighborhood Resource Sharing",
+          "recommendation": "B",
+          "tierSummary": "Tier 2",
+          "description": "A platform for neighbors to share tools, equipment, and resources, reducing waste and building community.",
+          "features": [
+            "Resource listing (tools, equipment)",
+            "Borrowing request system",
+            "Availability calendar",
+            "Community trust system",
+            "Resource categories and search"
+          ],
+          "targetAudience": "Neighborhoods, community groups, sustainability enthusiasts",
+          "why": "Next.js perfect for local SEO, API routes for resource management.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "B",
+          "monetization": "Premium features, insurance partnerships, featured neighborhoods"
+        },
+        {
+          "number": 5,
+          "title": "Local Business Directory with Booking Integration",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "A comprehensive directory of local businesses with integrated booking, reviews, and support features.",
+          "features": [
+            "Business directory with search",
+            "Integrated booking system",
+            "Review and rating system",
+            "Business owner dashboard",
+            "Support local campaigns"
+          ],
+          "targetAudience": "Local business supporters, small business owners, community members",
+          "why": "Next.js SSR essential for local SEO, API routes for booking management.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "Featured listings, premium business profiles, booking fees"
+        }
+      ]
+    },
+    {
+      "name": "Remix Starter",
+      "templateId": "remix-starter",
+      "category": "Frontend",
+      "downloadPath": "/downloads/remix-starter.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Community Garden Tracker with Plot Management",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "A platform for managing community gardens, tracking plots, coordinating planting, and sharing harvests.",
+          "features": [
+            "Plot assignment and management",
+            "Planting schedule coordination",
+            "Harvest tracking and sharing",
+            "Garden event calendar",
+            "Resource sharing (tools, seeds)"
+          ],
+          "targetAudience": "Community gardeners, urban farmers, gardening enthusiasts",
+          "why": "Remix's progressive enhancement perfect for offline use, web standards for accessibility.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Premium features, seed/equipment partnerships, garden planning tools"
+        },
+        {
+          "number": 2,
+          "title": "Trail Condition Reports with Offline-Friendly Forms",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "Hikers submit trail condition reports that remain usable on flaky mobile networks via progressive enhancement.",
+          "features": [
+            "Report forms that work without full JS",
+            "Condition tags (mud, ice, closures)",
+            "Photo notes and timestamps",
+            "Trail detail pages with recent reports",
+            "Moderator verification of hazards"
+          ],
+          "targetAudience": "Outdoor clubs, parks volunteers, hiking communities",
+          "why": "Remix progressive enhancement fits trailheads with poor connectivity better than SPA-only apps.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Club subscriptions, park partnerships, sponsored trail maps"
+        },
+        {
+          "number": 3,
+          "title": "Neighborhood Watch Communication Platform",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A secure platform for neighborhood watch groups to communicate, share updates, and coordinate safety efforts.",
+          "features": [
+            "Secure neighborhood groups",
+            "Incident reporting system",
+            "Safety alert notifications",
+            "Community map with markers",
+            "Resource sharing (safety tips, contacts)"
+          ],
+          "targetAudience": "Neighborhood watch groups, community safety advocates, residents",
+          "why": "Remix's progressive enhancement ensures it works even with slow connections, web standards for security.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Premium features, security system integrations, neighborhood partnerships"
+        },
+        {
+          "number": 4,
+          "title": "Volunteer Shift Signup Boards",
+          "recommendation": "B",
+          "tierSummary": "Tier 2",
+          "description": "Event and nonprofit organizers publish shift boards; volunteers claim slots with resilient form posts.",
+          "features": [
+            "Shift calendars by event",
+            "Claim / cancel flows",
+            "Waitlist when shifts fill",
+            "Organizer confirmation emails hooks",
+            "Accessible, print-friendly schedules"
+          ],
+          "targetAudience": "Nonprofits, festivals, community organizers",
+          "why": "Remix form actions and progressive enhancement keep signup reliable on shared devices.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "B",
+          "monetization": "Org subscriptions, white-label boards, SMS add-ons"
+        },
+        {
+          "number": 5,
+          "title": "Adopt-a-Block Cleanup Coordinator",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "Residents adopt street blocks, log cleanup sessions, and coordinate supplies with progressive, accessible UX.",
+          "features": [
+            "Block adoption registry",
+            "Cleanup session logging",
+            "Supply request lists",
+            "Before/after notes",
+            "City liaison export views"
+          ],
+          "targetAudience": "Neighborhood associations, city programs, civic tech groups",
+          "why": "Remix data loading + progressive enhancement suits civic tools used by mixed-device audiences.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Municipal contracts, civic grants, premium reporting"
+        }
+      ]
+    },
+    {
+      "name": "Express API",
+      "templateId": "express-api",
+      "category": "Backend",
+      "downloadPath": "/downloads/express-api.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "IoT Device Management API for Smart Homes",
+          "recommendation": "S",
+          "tierSummary": "Tier 1",
+          "description": "A RESTful API for managing IoT devices in smart homes, with device registration, control, and monitoring.",
+          "features": [
+            "Device registration and authentication",
+            "Device control endpoints",
+            "Status monitoring and reporting",
+            "Device grouping and scenes",
+            "Webhook support for events"
+          ],
+          "targetAudience": "Smart home enthusiasts, IoT developers, home automation companies",
+          "why": "Express perfect for RESTful IoT APIs, middleware for authentication and rate limiting.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "S",
+          "monetization": "API usage fees, premium features, device manufacturer partnerships"
+        },
+        {
+          "number": 2,
+          "title": "Content Moderation Service for Communities",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "An API service for content moderation, including text analysis, image scanning, and automated actions.",
+          "features": [
+            "Text content analysis",
+            "Image moderation",
+            "Automated action triggers",
+            "Moderation queue management",
+            "Analytics and reporting"
+          ],
+          "targetAudience": "Community platforms, social media apps, content platforms",
+          "why": "Express middleware perfect for request processing, scalable architecture for high volume.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "API usage fees, premium moderation features, custom rules"
+        },
+        {
+          "number": 3,
+          "title": "Real-time Collaboration Backend for Creative Tools",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A backend API supporting real-time collaboration features for creative tools (design, writing, coding).",
+          "features": [
+            "Real-time synchronization",
+            "Conflict resolution",
+            "Version history",
+            "User presence tracking",
+            "Permission management"
+          ],
+          "targetAudience": "Creative tool developers, collaboration platforms, team productivity apps",
+          "why": "Express with WebSocket support perfect for real-time features, scalable for multiple users.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "API usage fees, premium collaboration features, enterprise plans"
+        },
+        {
+          "number": 4,
+          "title": "Multi-tenant API for Co-working Spaces",
+          "recommendation": "S",
+          "tierSummary": "Tier 1",
+          "description": "An API for managing co-working spaces with booking, member management, and space utilization tracking.",
+          "features": [
+            "Space booking management",
+            "Member authentication and profiles",
+            "Resource booking (meeting rooms, equipment)",
+            "Utilization analytics",
+            "Billing integration"
+          ],
+          "targetAudience": "Co-working space operators, space management companies, facility managers",
+          "why": "Express perfect for multi-tenant architecture, middleware for tenant isolation.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "S",
+          "monetization": "SaaS pricing, premium features, integrations"
+        },
+        {
+          "number": 5,
+          "title": "Maker Hardware Webhook Ingestion API",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "An Express API that receives device webhooks, validates signatures, rate-limits noisy hardware, and fans out normalized events.",
+          "features": [
+            "Signed webhook verification middleware",
+            "Per-device API keys and rate limits",
+            "Event normalization pipeline",
+            "Dead-letter / retry queues hooks",
+            "Health and replay endpoints"
+          ],
+          "targetAudience": "IoT startups, maker spaces, hardware SaaS backends",
+          "why": "Express middleware shines for auth, validation, and high-volume webhook ingestion patterns.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Usage-based API pricing, premium replay/retention, white-label gateways"
+        }
+      ]
+    },
+    {
+      "name": "GraphQL API",
+      "templateId": "graphql-api",
+      "category": "Backend",
+      "downloadPath": "/downloads/graphql-api.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Multi-tenant SaaS Backend for Niche Industries",
+          "recommendation": "S",
+          "tierSummary": "Tier 1",
+          "description": "A GraphQL API supporting multi-tenant SaaS applications for specific industries (legal, healthcare, etc.).",
+          "features": [
+            "Multi-tenant data isolation",
+            "Industry-specific schemas",
+            "Custom field definitions",
+            "Tenant-specific configurations",
+            "Analytics and reporting"
+          ],
+          "targetAudience": "SaaS developers, industry-specific platforms, B2B applications",
+          "why": "GraphQL perfect for flexible queries per tenant, type-safe schema for complex data.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "S",
+          "monetization": "SaaS pricing tiers, premium features, custom schemas"
+        },
+        {
+          "number": 2,
+          "title": "Gaming Leaderboard API with Real-time Updates",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A GraphQL API for gaming leaderboards with real-time updates, rankings, and tournament management.",
+          "features": [
+            "Real-time leaderboard updates",
+            "Tournament management",
+            "Player statistics and rankings",
+            "Achievement tracking",
+            "Social features (friends, teams)"
+          ],
+          "targetAudience": "Game developers, esports platforms, gaming communities",
+          "why": "GraphQL subscriptions perfect for real-time updates, flexible queries for different game types.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "API usage fees, premium features, tournament hosting"
+        },
+        {
+          "number": 3,
+          "title": "Content Aggregation Service for Newsletters",
+          "recommendation": "A",
+          "tierSummary": "Tier 1–2",
+          "description": "A GraphQL API that aggregates content from multiple sources for newsletter creators and content curators.",
+          "features": [
+            "Multi-source content aggregation",
+            "Content filtering and curation",
+            "Newsletter template management",
+            "Scheduling and automation",
+            "Analytics and engagement tracking"
+          ],
+          "targetAudience": "Newsletter creators, content curators, marketers",
+          "why": "GraphQL perfect for flexible content queries, nested queries for related content.",
+          "complexity": "Intermediate to Advanced",
+          "difficultyTier": "Tier 1–2",
+          "recommendationField": "A",
+          "monetization": "Subscription fees, premium sources, white-label solutions"
+        },
+        {
+          "number": 4,
+          "title": "Mobile App Backend for Fitness Communities",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "A GraphQL API for fitness apps supporting workouts, progress tracking, social features, and challenges.",
+          "features": [
+            "Workout and exercise data",
+            "Progress tracking and analytics",
+            "Social features (friends, groups)",
+            "Challenge creation and participation",
+            "Nutrition tracking integration"
+          ],
+          "targetAudience": "Fitness app developers, fitness communities, health platforms",
+          "why": "GraphQL perfect for mobile apps (fetch only needed data), flexible queries for different features.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "API usage fees, premium features, fitness brand partnerships"
+        },
+        {
+          "number": 5,
+          "title": "API for Collaborative Creative Tools",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "A GraphQL API supporting collaborative creative tools with real-time updates, version control, and sharing.",
+          "features": [
+            "Real-time collaboration",
+            "Version control and history",
+            "Sharing and permissions",
+            "Comment and annotation system",
+            "Export and integration options"
+          ],
+          "targetAudience": "Creative tool developers, collaboration platforms, design teams",
+          "why": "GraphQL subscriptions for real-time updates, flexible queries for different creative tools.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "API usage fees, premium collaboration features, enterprise plans"
+        }
+      ]
+    },
+    {
+      "name": "NestJS Starter",
+      "templateId": "nestjs-starter",
+      "category": "Backend",
+      "downloadPath": "/downloads/nestjs-starter.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Microservices Orchestrator for Complex Systems",
+          "recommendation": "S",
+          "tierSummary": "Tier 1",
+          "description": "An enterprise-grade system for orchestrating microservices, managing communication, and handling failures.",
+          "features": [
+            "Service discovery and registration",
+            "Request routing and load balancing",
+            "Circuit breaker patterns",
+            "Distributed tracing",
+            "Health monitoring and alerts"
+          ],
+          "targetAudience": "Enterprise developers, microservices architects, DevOps teams",
+          "why": "NestJS perfect for enterprise architecture, dependency injection for service management.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "S",
+          "monetization": "Enterprise licensing, premium features, consulting services"
+        },
+        {
+          "number": 2,
+          "title": "Event Sourcing System for Audit Trails",
+          "recommendation": "S",
+          "tierSummary": "Tier 1",
+          "description": "An event sourcing system for maintaining complete audit trails and event history for compliance.",
+          "features": [
+            "Event storage and retrieval",
+            "Event replay capabilities",
+            "Snapshot management",
+            "Query and analytics",
+            "Compliance reporting"
+          ],
+          "targetAudience": "Enterprise applications, financial systems, healthcare platforms",
+          "why": "NestJS modules perfect for event sourcing patterns, decorators for event handling.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "S",
+          "monetization": "Enterprise licensing, compliance features, consulting"
+        },
+        {
+          "number": 3,
+          "title": "Multi-region API Gateway for Global Apps",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "An API gateway managing requests across multiple regions with routing, caching, and failover.",
+          "features": [
+            "Multi-region routing",
+            "Request caching and optimization",
+            "Failover and redundancy",
+            "Rate limiting per region",
+            "Analytics and monitoring"
+          ],
+          "targetAudience": "Global application developers, enterprise platforms, international SaaS",
+          "why": "NestJS perfect for complex routing logic, guards for regional access control.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Enterprise licensing, premium features, global infrastructure"
+        },
+        {
+          "number": 4,
+          "title": "Enterprise Dashboard API for Data Visualization",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "An API for enterprise dashboards with complex data aggregation, real-time updates, and custom metrics.",
+          "features": [
+            "Complex data aggregation",
+            "Real-time data updates",
+            "Custom metric definitions",
+            "Data export and reporting",
+            "Role-based data access"
+          ],
+          "targetAudience": "Enterprise applications, business intelligence platforms, analytics companies",
+          "why": "NestJS perfect for complex business logic, modules for different data sources.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "Enterprise licensing, premium analytics, custom integrations"
+        },
+        {
+          "number": 5,
+          "title": "Complex Workflow Management System",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "An enterprise workflow system with conditional logic, approvals, and integration capabilities.",
+          "features": [
+            "Workflow definition and execution",
+            "Conditional branching logic",
+            "Approval and notification system",
+            "Integration with external systems",
+            "Workflow analytics and optimization"
+          ],
+          "targetAudience": "Enterprise applications, business process automation, workflow platforms",
+          "why": "NestJS perfect for complex business logic, decorators for workflow definitions.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "Enterprise licensing, premium workflows, custom integrations"
+        }
+      ]
+    },
+    {
+      "name": "Node PostgreSQL",
+      "templateId": "node-postgres",
+      "category": "Backend",
+      "downloadPath": "/downloads/node-postgres.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Time-series Data Analytics for IoT Devices",
+          "recommendation": "S",
+          "tierSummary": "Tier 1",
+          "description": "A system for storing and analyzing time-series data from IoT devices with efficient queries and visualization.",
+          "features": [
+            "Time-series data storage",
+            "Efficient querying and aggregation",
+            "Data visualization endpoints",
+            "Alert and threshold management",
+            "Historical data analysis"
+          ],
+          "targetAudience": "IoT developers, smart home platforms, industrial monitoring",
+          "why": "PostgreSQL perfect for time-series data, Prisma for type-safe queries.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "S",
+          "monetization": "API usage fees, premium analytics, device partnerships"
+        },
+        {
+          "number": 2,
+          "title": "Geospatial Query Engine for Location Services",
+          "recommendation": "S",
+          "tierSummary": "Tier 1",
+          "description": "An API for geospatial queries supporting location-based services, mapping, and proximity searches.",
+          "features": [
+            "Geospatial data storage",
+            "Proximity and radius queries",
+            "Route calculation",
+            "Location clustering",
+            "Map integration support"
+          ],
+          "targetAudience": "Location-based app developers, mapping services, delivery platforms",
+          "why": "PostgreSQL PostGIS perfect for geospatial queries, Prisma for type safety.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "S",
+          "monetization": "API usage fees, premium features, mapping service partnerships"
+        },
+        {
+          "number": 3,
+          "title": "Document Versioning System for Legal Docs",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A system for versioning legal documents with change tracking, approval workflows, and compliance.",
+          "features": [
+            "Document versioning and history",
+            "Change tracking and diff",
+            "Approval workflows",
+            "Compliance and audit trails",
+            "Document search and retrieval"
+          ],
+          "targetAudience": "Legal tech companies, document management platforms, compliance teams",
+          "why": "PostgreSQL perfect for versioning, Prisma for complex relationships.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "SaaS pricing, premium features, compliance certifications"
+        },
+        {
+          "number": 4,
+          "title": "Analytics Platform for Creative Metrics",
+          "recommendation": "B",
+          "tierSummary": "Tier 1–2",
+          "description": "An analytics platform tracking metrics for creative professionals (views, engagement, conversions).",
+          "features": [
+            "Custom metric definitions",
+            "Real-time analytics",
+            "Cohort analysis",
+            "Funnel tracking",
+            "Export and reporting"
+          ],
+          "targetAudience": "Creative professionals, agencies, content creators",
+          "why": "PostgreSQL perfect for analytics data, Prisma for flexible queries.",
+          "complexity": "Intermediate to Advanced",
+          "difficultyTier": "Tier 1–2",
+          "recommendationField": "B",
+          "monetization": "Subscription fees, premium analytics, white-label solutions"
+        },
+        {
+          "number": 5,
+          "title": "Data Aggregation Service for Research",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "A service aggregating data from multiple sources for research purposes with cleaning and normalization.",
+          "features": [
+            "Multi-source data aggregation",
+            "Data cleaning and normalization",
+            "Research query interface",
+            "Data export in multiple formats",
+            "Collaboration and sharing"
+          ],
+          "targetAudience": "Researchers, data scientists, academic institutions",
+          "why": "PostgreSQL perfect for research data, Prisma for complex queries.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "Subscription fees, premium data sources, research partnerships"
+        }
+      ]
+    },
+    {
+      "name": "Serverless Functions",
+      "templateId": "serverless-functions",
+      "category": "Backend",
+      "downloadPath": "/downloads/serverless-functions.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Automated Content Generator for Social Media",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "Serverless functions that generate social media content based on templates, data, and scheduling.",
+          "features": [
+            "Content generation from templates",
+            "Scheduled posting",
+            "Multi-platform support",
+            "Analytics and engagement tracking",
+            "A/B testing capabilities"
+          ],
+          "targetAudience": "Social media managers, content creators, marketing teams",
+          "why": "Serverless perfect for scheduled tasks, cost-effective for sporadic usage.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Subscription fees, premium templates, platform integrations"
+        },
+        {
+          "number": 2,
+          "title": "Smart Notification Router Based on User Preferences",
+          "recommendation": "A",
+          "tierSummary": "Tier 1–2",
+          "description": "Serverless functions that route notifications based on user preferences, channels, and timing.",
+          "features": [
+            "Multi-channel notification routing",
+            "User preference management",
+            "Optimal timing calculation",
+            "Notification analytics",
+            "A/B testing for delivery"
+          ],
+          "targetAudience": "App developers, notification services, marketing platforms",
+          "why": "Serverless perfect for event-driven notifications, scales automatically.",
+          "complexity": "Intermediate to Advanced",
+          "difficultyTier": "Tier 1–2",
+          "recommendationField": "A",
+          "monetization": "API usage fees, premium channels, analytics features"
+        },
+        {
+          "number": 3,
+          "title": "Data Transformation Pipeline for ETL Jobs",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "Serverless functions for ETL (Extract, Transform, Load) jobs with scheduling and monitoring.",
+          "features": [
+            "Data extraction from sources",
+            "Transformation logic",
+            "Loading to destinations",
+            "Scheduling and automation",
+            "Error handling and retries"
+          ],
+          "targetAudience": "Data engineers, analytics teams, integration platforms",
+          "why": "Serverless perfect for ETL jobs, cost-effective for batch processing.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Usage-based pricing, premium transformations, custom integrations"
+        },
+        {
+          "number": 4,
+          "title": "Webhook Aggregator for Multiple Services",
+          "recommendation": "S",
+          "tierSummary": "Tier 1–2",
+          "description": "Serverless functions that aggregate webhooks from multiple services, transform, and route them.",
+          "features": [
+            "Webhook reception and validation",
+            "Transformation and filtering",
+            "Routing to destinations",
+            "Retry and error handling",
+            "Webhook analytics"
+          ],
+          "targetAudience": "Integration platforms, automation tools, developers",
+          "why": "Serverless perfect for webhook handling, scales with webhook volume.",
+          "complexity": "Intermediate to Advanced",
+          "difficultyTier": "Tier 1–2",
+          "recommendationField": "S",
+          "monetization": "API usage fees, premium transformations, custom routing"
+        },
+        {
+          "number": 5,
+          "title": "Scheduled Task Runner for Maintenance Jobs",
+          "recommendation": "C",
+          "tierSummary": "Tier 2",
+          "description": "Serverless functions for running scheduled maintenance tasks, cleanup jobs, and automated processes.",
+          "features": [
+            "Task scheduling and management",
+            "Automated cleanup jobs",
+            "Maintenance task execution",
+            "Error handling and alerts",
+            "Task history and logging"
+          ],
+          "targetAudience": "Developers, DevOps teams, system administrators",
+          "why": "Serverless perfect for scheduled tasks, cost-effective for infrequent jobs.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "C",
+          "monetization": "Usage-based pricing, premium scheduling, monitoring features"
+        }
+      ]
+    },
+    {
+      "name": "PERN Starter",
+      "templateId": "pern-starter",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/pern-starter.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Community Skill Exchange Platform",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A full-stack platform where community members can teach and learn skills from each other.",
+          "features": [
+            "Skill listing and matching",
+            "Exchange scheduling system",
+            "Messaging between users",
+            "Rating and review system",
+            "Community groups and events"
+          ],
+          "targetAudience": "Lifelong learners, community builders, skill enthusiasts",
+          "why": "PERN with Prisma fits structured relational data and auth-heavy apps.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Premium matching, verified skills, featured listings"
+        },
+        {
+          "number": 2,
+          "title": "Local Food Sharing Network",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "A platform for sharing surplus food to reduce waste and feed communities.",
+          "features": [
+            "Food listing with photos",
+            "Pickup scheduling",
+            "Food safety guidelines",
+            "Community map",
+            "Impact tracking"
+          ],
+          "targetAudience": "Food waste reduction advocates, community members, restaurants",
+          "why": "PERN with Prisma fits structured content and availability rules.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Premium features, restaurant partnerships, impact reporting"
+        },
+        {
+          "number": 3,
+          "title": "Tool Library Platform",
+          "recommendation": "B",
+          "tierSummary": "Tier 2",
+          "description": "A platform for neighbors to borrow and lend tools, reducing waste and building community.",
+          "features": [
+            "Tool listing and search",
+            "Borrowing request system",
+            "Availability calendar",
+            "Community trust system",
+            "Tool categories and filters"
+          ],
+          "targetAudience": "Neighborhoods, community groups, sustainability enthusiasts",
+          "why": "PERN with Prisma fits inventory and community features with clear relations.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "B",
+          "monetization": "Premium features, insurance partnerships, featured neighborhoods"
+        },
+        {
+          "number": 4,
+          "title": "Community Event Organizer",
+          "recommendation": "B",
+          "tierSummary": "Tier 2",
+          "description": "A platform for organizing and discovering community events with RSVP and coordination features.",
+          "features": [
+            "Event creation and management",
+            "RSVP and waitlist system",
+            "Event discovery and filtering",
+            "Community calendar",
+            "Event coordination tools"
+          ],
+          "targetAudience": "Community organizers, event-goers, local businesses",
+          "why": "PERN with Prisma fits event management and RSVP integrity.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "B",
+          "monetization": "Featured events, premium organizer tools, ticketing integration"
+        },
+        {
+          "number": 5,
+          "title": "Local Business Support Network",
+          "recommendation": "B",
+          "tierSummary": "Tier 1–2",
+          "description": "A platform connecting local businesses with supporters through campaigns and events.",
+          "features": [
+            "Business support campaigns",
+            "Community engagement features",
+            "Event coordination",
+            "Support tracking",
+            "Business resources"
+          ],
+          "targetAudience": "Local business supporters, small business owners, community organizers",
+          "why": "PERN with Prisma fits community directories and typed business records.",
+          "complexity": "Intermediate to Advanced",
+          "difficultyTier": "Tier 1–2",
+          "recommendationField": "B",
+          "monetization": "Featured campaigns, premium business tools, event ticketing"
+        }
+      ]
+    },
+    {
+      "name": "CRM Platform",
+      "templateId": "crm-platform",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/crm-platform.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Freelancer Client Tracker",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "A CRM specifically designed for freelancers to track clients, projects, and income.",
+          "features": [
+            "Client and project management",
+            "Income tracking and invoicing",
+            "Project timeline and milestones",
+            "Client communication history",
+            "Financial reporting"
+          ],
+          "targetAudience": "Freelancers, independent contractors, consultants",
+          "why": "CRM structure perfect for client relationships, customizable for freelancer needs.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Subscription fees, premium features, invoicing integration"
+        },
+        {
+          "number": 2,
+          "title": "Artist Commission Manager",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "A CRM for artists managing commissions, clients, and artwork tracking.",
+          "features": [
+            "Commission tracking and management",
+            "Client communication and contracts",
+            "Artwork portfolio integration",
+            "Payment and invoice tracking",
+            "Project timeline management"
+          ],
+          "targetAudience": "Artists, illustrators, designers, creative professionals",
+          "why": "CRM perfect for client management, customizable for creative workflows.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Subscription fees, premium features, portfolio integration"
+        },
+        {
+          "number": 3,
+          "title": "Tutor Student Relationship Manager",
+          "recommendation": "B",
+          "tierSummary": "Tier 2",
+          "description": "A CRM for tutors managing students, sessions, and progress tracking.",
+          "features": [
+            "Student and session management",
+            "Progress tracking and notes",
+            "Scheduling and calendar integration",
+            "Payment and billing",
+            "Resource sharing"
+          ],
+          "targetAudience": "Tutors, educators, online teachers",
+          "why": "CRM perfect for relationship management, customizable for educational needs.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "B",
+          "monetization": "Subscription fees, premium features, payment processing"
+        },
+        {
+          "number": 4,
+          "title": "Consultant Project Tracker",
+          "recommendation": "B",
+          "tierSummary": "Tier 1–2",
+          "description": "A CRM for consultants managing projects, clients, and deliverables.",
+          "features": [
+            "Project and client management",
+            "Deliverable tracking",
+            "Time and expense tracking",
+            "Client communication",
+            "Reporting and analytics"
+          ],
+          "targetAudience": "Consultants, advisors, professional services",
+          "why": "CRM perfect for project management, customizable for consulting workflows.",
+          "complexity": "Intermediate to Advanced",
+          "difficultyTier": "Tier 1–2",
+          "recommendationField": "B",
+          "monetization": "Subscription fees, premium features, time tracking integration"
+        },
+        {
+          "number": 5,
+          "title": "Service Provider Client Management",
+          "recommendation": "C",
+          "tierSummary": "Tier 2",
+          "description": "A CRM for service providers (plumbers, electricians, etc.) managing clients and jobs.",
+          "features": [
+            "Client and job management",
+            "Scheduling and calendar",
+            "Quote and invoice management",
+            "Service history tracking",
+            "Mobile-friendly interface"
+          ],
+          "targetAudience": "Service providers, contractors, tradespeople",
+          "why": "CRM perfect for client management, customizable for service industry needs.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "C",
+          "monetization": "Subscription fees, premium features, mobile app integration"
+        }
+      ]
+    },
+    {
+      "name": "E-commerce Platform",
+      "templateId": "ecommerce-platform",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/ecommerce-platform.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Digital Product Marketplace",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A marketplace for digital products (templates, assets, courses) with instant delivery.",
+          "features": [
+            "Digital product listings",
+            "Instant download delivery",
+            "Product previews and demos",
+            "Creator dashboard and analytics",
+            "Licensing management"
+          ],
+          "targetAudience": "Digital product creators, designers, course creators",
+          "why": "E-commerce structure perfect for marketplace, customizable for digital products.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Transaction fees, premium features, creator subscriptions"
+        },
+        {
+          "number": 2,
+          "title": "Service Booking Platform",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "An e-commerce platform for booking services (not products) with scheduling and payments.",
+          "features": [
+            "Service listings and categories",
+            "Booking and scheduling system",
+            "Calendar integration",
+            "Payment processing",
+            "Service provider dashboard"
+          ],
+          "targetAudience": "Service providers, booking platforms, appointment-based businesses",
+          "why": "E-commerce structure adaptable for services, payment integration ready.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Transaction fees, premium features, subscription plans"
+        },
+        {
+          "number": 3,
+          "title": "Subscription Box Curator",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A platform for curating and managing subscription boxes with customization options.",
+          "features": [
+            "Subscription box creation",
+            "Customization options for subscribers",
+            "Inventory management",
+            "Shipping and fulfillment",
+            "Subscriber management"
+          ],
+          "targetAudience": "Subscription box businesses, curators, e-commerce entrepreneurs",
+          "why": "E-commerce perfect for subscriptions, customizable for box curation.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Subscription fees, premium features, fulfillment partnerships"
+        },
+        {
+          "number": 4,
+          "title": "Local Artisan Marketplace",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "A marketplace connecting local artisans with customers, featuring handmade and unique products.",
+          "features": [
+            "Artisan profiles and shops",
+            "Product listings with stories",
+            "Local delivery options",
+            "Artisan verification",
+            "Community features"
+          ],
+          "targetAudience": "Artisans, crafters, local product enthusiasts",
+          "why": "E-commerce perfect for marketplace, customizable for artisan needs.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "Transaction fees, premium features, featured artisans"
+        },
+        {
+          "number": 5,
+          "title": "Digital Course Marketplace",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "A marketplace for online courses with video hosting, progress tracking, and certificates.",
+          "features": [
+            "Course creation and management",
+            "Video hosting and streaming",
+            "Student progress tracking",
+            "Certificate generation",
+            "Instructor dashboard"
+          ],
+          "targetAudience": "Course creators, educators, online learning platforms",
+          "why": "E-commerce perfect for course sales, customizable for learning features.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "Transaction fees, premium features, course hosting fees"
+        }
+      ]
+    },
+    {
+      "name": "Blog / CMS",
+      "templateId": "blog-cms",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/blog-cms.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Niche Industry Newsletter Hub",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "A focused blog for a vertical (craft brewing, indie games, regenerative farming) with draft/publish workflow and a simple admin for editors.",
+          "features": [
+            "Public post list and slug-based detail pages",
+            "Draft vs published status",
+            "Author accounts with first-user admin",
+            "Markdown/plain content editing",
+            "Basic SEO metadata per post"
+          ],
+          "targetAudience": "Niche publishers, indie media, community educators",
+          "why": "Next.js App Router + Prisma gives SEO-friendly public pages and a lean admin without a heavy CMS.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Sponsored posts, paid newsletters, membership upsells"
+        },
+        {
+          "number": 2,
+          "title": "Product Changelog and Release Notes Site",
+          "recommendation": "A",
+          "tierSummary": "Tier 2–3",
+          "description": "A public changelog for a product team with scheduled drafts and published release notes.",
+          "features": [
+            "Chronological post listing",
+            "Draft staging before launch day",
+            "Author attribution",
+            "Simple excerpt for card previews",
+            "Admin create/edit/publish flow"
+          ],
+          "targetAudience": "SaaS product teams, open-source maintainers, startup founders",
+          "why": "Blog/CMS starter maps cleanly to release content without MDX or media library complexity.",
+          "complexity": "Beginner to Intermediate",
+          "difficultyTier": "Tier 2–3",
+          "recommendationField": "A",
+          "monetization": "Part of a paid product suite, or consulting for changelog setups"
+        },
+        {
+          "number": 3,
+          "title": "Local Nonprofit Story Archive",
+          "recommendation": "B",
+          "tierSummary": "Tier 2",
+          "description": "A content site where nonprofits publish impact stories, volunteer updates, and campaign narratives.",
+          "features": [
+            "Public storytelling pages",
+            "Editorial draft review",
+            "Multiple authors over time",
+            "Lightweight admin for staff",
+            "PostgreSQL-backed content durability"
+          ],
+          "targetAudience": "Nonprofits, community orgs, grant-funded projects",
+          "why": "Lean CMS surface is enough for staff writers without WordPress overhead.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "B",
+          "monetization": "Grant-funded builds, hosting retainers, content packages"
+        },
+        {
+          "number": 4,
+          "title": "Personal Knowledge Base for Consultants",
+          "recommendation": "B",
+          "tierSummary": "Tier 2",
+          "description": "A consultant-facing library of frameworks, case writeups, and playbooks with private drafts and public published pieces.",
+          "features": [
+            "Auth-gated admin editing",
+            "Public published articles",
+            "Slug-based deep links for sharing",
+            "Excerpt-driven browsing",
+            "Fast Next.js rendering"
+          ],
+          "targetAudience": "Consultants, coaches, solo experts",
+          "why": "Cookie auth + admin CRUD matches a personal CMS without buying a hosted CMS.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "B",
+          "monetization": "Lead generation, premium article packs, client onboarding content"
+        },
+        {
+          "number": 5,
+          "title": "Campus Club Magazine",
+          "recommendation": "C",
+          "tierSummary": "Tier 2–3",
+          "description": "A student-run online magazine with editors publishing issues as posts and keeping drafts private until review.",
+          "features": [
+            "Role-friendly first-admin setup",
+            "Draft pipeline for submissions",
+            "Public reading experience",
+            "Simple forms instead of WYSIWYG",
+            "Easy deploy on common Next hosts"
+          ],
+          "targetAudience": "Student media, clubs, campus organizations",
+          "why": "Low ops footprint and clear publish controls fit rotating volunteer editors.",
+          "complexity": "Beginner to Intermediate",
+          "difficultyTier": "Tier 2–3",
+          "recommendationField": "C",
+          "monetization": "Campus ads, print crossover sales, alumni sponsorships"
+        }
+      ]
+    },
+    {
+      "name": "Realtime Socket.io",
+      "templateId": "realtime-socketio",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/realtime-socketio.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Study Group Chat Rooms",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "Authenticated students join subject rooms, persist chat history, and see who's online while studying together.",
+          "features": [
+            "JWT auth for room access",
+            "Room create/list and join/leave",
+            "Persisted messages in PostgreSQL",
+            "In-memory online presence counts",
+            "React client with live updates"
+          ],
+          "targetAudience": "Students, tutors, learning communities",
+          "why": "Socket.io rooms + Prisma messages are the exact core of collaborative study chat.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Premium rooms, tutor-led sessions, school licenses"
+        },
+        {
+          "number": 2,
+          "title": "Live Event Backchannel",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "Conference or meetup attendees chat in session rooms with history retained for recap.",
+          "features": [
+            "Session-named rooms",
+            "Real-time broadcast after persist",
+            "Presence for “who’s in this talk”",
+            "Message history on rejoin",
+            "Lean Vite + Express stack"
+          ],
+          "targetAudience": "Event organizers, communities, meetup hosts",
+          "why": "Realtime starter focuses on rooms and messages without Redis complexity for single-node events.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Event add-on fees, sponsor rooms, premium recap exports"
+        },
+        {
+          "number": 3,
+          "title": "Small Team Ops Standup Channel",
+          "recommendation": "B",
+          "tierSummary": "Tier 2",
+          "description": "A lightweight always-on room for a squad’s async/sync chat with durable history.",
+          "features": [
+            "Authenticated members only",
+            "One or many team rooms",
+            "Persisted thread history",
+            "Simple presence indicator",
+            "Fast local-first DX"
+          ],
+          "targetAudience": "Small startups, agencies, remote squads",
+          "why": "Replaces heavier chat SaaS for tiny teams that want self-hosted room chat.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "B",
+          "monetization": "Hosted team plans, white-label for agencies"
+        },
+        {
+          "number": 4,
+          "title": "Customer Support Waiting Room Chat",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "Support agents and customers join ticket rooms for live chat while history stays queryable.",
+          "features": [
+            "Room per support thread",
+            "Auth for agents and customers",
+            "Message persistence for audits",
+            "Presence for agent availability cues",
+            "HTTP history + socket live path"
+          ],
+          "targetAudience": "Support teams, SaaS founders, service businesses",
+          "why": "Join/leave/chat events map directly to ticket-room support flows.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "Per-seat support pricing, SLA upgrades"
+        },
+        {
+          "number": 5,
+          "title": "Multiplayer Lobby Presence Board",
+          "recommendation": "B",
+          "tierSummary": "Tier 1–2",
+          "description": "Game or hobby lobbies show online counts and chat while players wait to start.",
+          "features": [
+            "Lobby rooms by game/mode",
+            "Live chat during queue",
+            "Online count via socket presence",
+            "Persisted lobby chatter",
+            "Extensible event surface"
+          ],
+          "targetAudience": "Indie game communities, hobby leagues, LAN organizers",
+          "why": "Presence + room chat is the lobby primitive without needing a full game server.",
+          "complexity": "Intermediate to Advanced",
+          "difficultyTier": "Tier 1–2",
+          "recommendationField": "B",
+          "monetization": "Cosmetics, premium lobbies, tournament hosting"
+        }
+      ]
+    },
+    {
+      "name": "SaaS Starter",
+      "templateId": "saas-starter",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/saas-starter.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Agency Client Workspace Hub",
+          "recommendation": "S",
+          "tierSummary": "Tier 1",
+          "description": "Agencies create an organization per client, invite teammates, and bill the org on a PRO plan.",
+          "features": [
+            "Multi-org memberships",
+            "OWNER/ADMIN/MEMBER roles",
+            "Stripe Checkout on the organization",
+            "Customer Portal for plan changes",
+            "Webhook-synced plan status"
+          ],
+          "targetAudience": "Digital agencies, freelancers scaling to teams",
+          "why": "Org-level Stripe billing matches how agencies charge per client workspace.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "S",
+          "monetization": "Monthly PRO per workspace, implementation fees"
+        },
+        {
+          "number": 2,
+          "title": "Vertical Clinic Operations Tool",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "Small clinics get a tenant workspace for staff, with FREE trial and PRO subscription for the practice.",
+          "features": [
+            "Organization as the clinic tenant",
+            "Staff membership invites by email (existing users)",
+            "Plan gate for PRO features",
+            "Checkout + portal flows",
+            "PostgreSQL tenant records"
+          ],
+          "targetAudience": "Clinics, practices, local professional services",
+          "why": "Multi-tenant org model + Stripe is the skeleton of vertical SaaS billing.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Per-practice subscriptions, onboarding packages"
+        },
+        {
+          "number": 3,
+          "title": "Freelancer Collective Billing",
+          "recommendation": "A",
+          "tierSummary": "Tier 1–2",
+          "description": "A collective of freelancers shares workspaces and upgrades the collective org when they need PRO seats/tools.",
+          "features": [
+            "Multiple orgs per user",
+            "Role-aware billing actions",
+            "Shared membership list",
+            "Subscription status on org",
+            "Lean Next.js dashboard"
+          ],
+          "targetAudience": "Freelancer collectives, co-ops, small studios",
+          "why": "Subscription sits on the tenant, not each individual—ideal for shared billing.",
+          "complexity": "Intermediate to Advanced",
+          "difficultyTier": "Tier 1–2",
+          "recommendationField": "A",
+          "monetization": "Collective PRO plan, add-on modules later"
+        },
+        {
+          "number": 4,
+          "title": "Internal Tool Sold to Companies",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "Ship an internal ops tool as a product: each customer company is an org with its own Stripe customer.",
+          "features": [
+            "Company orgs and member roles",
+            "Upgrade to PRO via Checkout",
+            "Portal for self-serve cancellation/update",
+            "Webhook truth for entitlement",
+            "Cookie auth for the app shell"
+          ],
+          "targetAudience": "B2B founders, IT consultancies, indie SaaS builders",
+          "why": "SaaS starter already wires tenant + billing, the hardest boilerplate pieces.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "B2B SaaS subscriptions, annual contracts"
+        },
+        {
+          "number": 5,
+          "title": "Cohort-Based Course Platform Tenants",
+          "recommendation": "B",
+          "tierSummary": "Tier 1",
+          "description": "Course operators run separate orgs per cohort or school partner, each with its own billing state.",
+          "features": [
+            "Org-per-cohort tenancy",
+            "Admin member management",
+            "PRO unlock for premium curriculum tools",
+            "Stripe webhook sync",
+            "Dashboard org switcher pattern"
+          ],
+          "targetAudience": "Course creators, bootcamps, education startups",
+          "why": "Org isolation + subscription status is enough to start selling before building LMS depth.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "B",
+          "monetization": "Per-cohort or per-school subscriptions"
+        }
+      ]
+    },
+    {
+      "name": "tRPC Starter",
+      "templateId": "trpc-starter",
+      "category": "Full-Stack",
+      "downloadPath": "/downloads/trpc-starter.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Typesafe Personal CRM Lite",
+          "recommendation": "S",
+          "tierSummary": "Tier 2",
+          "description": "A private contact/note CRUD app where UI hooks share types with the server router—no hand-written API client.",
+          "features": [
+            "Cookie JWT auth procedures",
+            "Protected create/list/update/delete",
+            "React Query invalidation patterns",
+            "Zod input validation",
+            "Prisma-backed entities"
+          ],
+          "targetAudience": "Solo founders, consultants, productivity builders",
+          "why": "tRPC end-to-end types eliminate REST drift for small CRUD tools.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "S",
+          "monetization": "Premium templates, hosted personal CRM tiers"
+        },
+        {
+          "number": 2,
+          "title": "Internal Admin for Content Ops",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "An ops team manages posts or records with typed mutations and shared contracts between UI and API.",
+          "features": [
+            "`publicProcedure` / `protectedProcedure`",
+            "Auth me/login/register/logout",
+            "Posts-style CRUD as the demo domain",
+            "Fast Next.js iteration",
+            "Compile-time API safety"
+          ],
+          "targetAudience": "Startup internal tools teams, content ops",
+          "why": "tRPC starter is ideal when the admin UI and API ship as one TypeScript app.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Internal efficiency (cost savings), later productization"
+        },
+        {
+          "number": 3,
+          "title": "Prototype Lab for Typed Product Ideas",
+          "recommendation": "B",
+          "tierSummary": "Tier 2–3",
+          "description": "Quickly validate product ideas with authenticated CRUD screens and zero OpenAPI boilerplate.",
+          "features": [
+            "Router modules per domain",
+            "Instant client autocomplete",
+            "Session-aware procedures",
+            "Swap Post model for your domain",
+            "Lean Prisma schema"
+          ],
+          "targetAudience": "Indie hackers, hackathon teams, design partners",
+          "why": "Fastest path from idea to typed full-stack demo in this library.",
+          "complexity": "Beginner to Intermediate",
+          "difficultyTier": "Tier 2–3",
+          "recommendationField": "B",
+          "monetization": "Speed-to-revenue prototypes, client discovery sprints"
+        },
+        {
+          "number": 4,
+          "title": "Team Checklist / Runbook App",
+          "recommendation": "B",
+          "tierSummary": "Tier 2",
+          "description": "Teams maintain runbooks or checklists with strongly typed create/update/delete and auth-gated access.",
+          "features": [
+            "Protected list queries",
+            "Mutation hooks with cache invalidation",
+            "User-owned records pattern",
+            "Extend routers without REST sprawl",
+            "PostgreSQL persistence"
+          ],
+          "targetAudience": "DevOps-lite teams, agencies, support leads",
+          "why": "Procedure routers scale cleanly as checklist domains grow.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "B",
+          "monetization": "Team seats, template marketplaces"
+        },
+        {
+          "number": 5,
+          "title": "Educator Assignment Tracker",
+          "recommendation": "C",
+          "tierSummary": "Tier 2",
+          "description": "Teachers track assignments or student notes with a typesafe API that stays in sync as fields evolve.",
+          "features": [
+            "Auth for educators",
+            "CRUD for assignment-like posts",
+            "Zod schemas as single source of truth",
+            "React Query loading/error UX",
+            "Easy schema migrations via Prisma"
+          ],
+          "targetAudience": "Educators, tutors, small learning orgs",
+          "why": "Schema changes flow to UI types automatically—critical for evolving education tools.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "C",
+          "monetization": "School licenses, tutor subscriptions"
+        }
+      ]
+    },
+    {
+      "name": "Stripe Integration",
+      "templateId": "stripe-integration",
+      "category": "Infrastructure",
+      "downloadPath": "/downloads/stripe-integration.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Subscription Management Platform",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A platform managing subscriptions with flexible billing, upgrades, and cancellations.",
+          "features": [
+            "Subscription creation and management",
+            "Flexible billing cycles",
+            "Upgrade and downgrade handling",
+            "Cancellation and reactivation",
+            "Usage-based billing"
+          ],
+          "targetAudience": "SaaS companies, subscription businesses, recurring revenue platforms",
+          "why": "Stripe perfect for subscriptions, webhook handling for events.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Platform fees, premium features, white-label solutions"
+        },
+        {
+          "number": 2,
+          "title": "Donation Platform for Causes",
+          "recommendation": "A",
+          "tierSummary": "Tier 2",
+          "description": "A platform for collecting donations with recurring options, impact tracking, and transparency.",
+          "features": [
+            "One-time and recurring donations",
+            "Cause pages and stories",
+            "Impact tracking and reporting",
+            "Donor management",
+            "Transparency features"
+          ],
+          "targetAudience": "Non-profits, causes, fundraisers",
+          "why": "Stripe perfect for donations, webhooks for real-time updates.",
+          "complexity": "Intermediate",
+          "difficultyTier": "Tier 2",
+          "recommendationField": "A",
+          "monetization": "Platform fees, premium features, cause partnerships"
+        },
+        {
+          "number": 3,
+          "title": "Event Ticketing with Dynamic Pricing",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A ticketing platform with dynamic pricing, capacity management, and fraud prevention.",
+          "features": [
+            "Ticket creation and sales",
+            "Dynamic pricing algorithms",
+            "Capacity management",
+            "Fraud detection",
+            "Attendee management"
+          ],
+          "targetAudience": "Event organizers, venues, ticketing platforms",
+          "why": "Stripe perfect for payments, webhooks for ticket events.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Transaction fees, premium features, white-label solutions"
+        }
+      ]
+    },
+    {
+      "name": "Docker Node",
+      "templateId": "docker-node",
+      "category": "Infrastructure",
+      "downloadPath": "/downloads/docker-node.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Scalable API Gateway",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A containerized API gateway managing multiple services with load balancing and monitoring.",
+          "features": [
+            "Request routing and load balancing",
+            "Service discovery",
+            "Rate limiting and throttling",
+            "Monitoring and logging",
+            "Health checks"
+          ],
+          "targetAudience": "Microservices architects, DevOps teams, API platform developers",
+          "why": "Docker perfect for scalable deployment, container orchestration ready.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Enterprise licensing, premium features, managed services"
+        },
+        {
+          "number": 2,
+          "title": "Multi-Environment Deployment System",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A system for deploying applications across multiple environments with consistency.",
+          "features": [
+            "Environment management",
+            "Consistent deployments",
+            "Rollback capabilities",
+            "Environment-specific configurations",
+            "Deployment automation"
+          ],
+          "targetAudience": "DevOps teams, platform engineers, deployment automation",
+          "why": "Docker perfect for environment consistency, containerization for portability.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Enterprise licensing, premium features, managed deployments"
+        }
+      ]
+    },
+    {
+      "name": "Monorepo Turborepo",
+      "templateId": "monorepo-turborepo",
+      "category": "Infrastructure",
+      "downloadPath": "/downloads/monorepo-turborepo.zip",
+      "projects": [
+        {
+          "number": 1,
+          "title": "Multi-App Platform with Shared Components",
+          "recommendation": "A",
+          "tierSummary": "Tier 1",
+          "description": "A monorepo managing multiple applications (web, mobile, admin) with shared components.",
+          "features": [
+            "Multiple applications in one repo",
+            "Shared component library",
+            "Shared utilities and types",
+            "Unified build and deployment",
+            "Cross-app code sharing"
+          ],
+          "targetAudience": "Teams building multiple apps, platform developers, large codebases",
+          "why": "Turborepo perfect for monorepo management, shared code optimization.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "A",
+          "monetization": "Enterprise licensing, premium features, consulting services"
+        },
+        {
+          "number": 2,
+          "title": "Design System Monorepo",
+          "recommendation": "S",
+          "tierSummary": "Tier 1",
+          "description": "A monorepo containing design system packages, documentation, and example applications.",
+          "features": [
+            "Component library packages",
+            "Documentation site",
+            "Example applications",
+            "Shared design tokens",
+            "Version management"
+          ],
+          "targetAudience": "Design system teams, component library maintainers, large organizations",
+          "why": "Turborepo perfect for package management, shared dependencies.",
+          "complexity": "Advanced",
+          "difficultyTier": "Tier 1",
+          "recommendationField": "S",
+          "monetization": "Enterprise licensing, premium components, design system services"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "boilerplate-code-library",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Boilerplate library root scripts for showcase site and template packs",
+  "scripts": {
+    "pack:templates": "node scripts/pack-templates.mjs",
+    "sync:use-cases": "node scripts/sync-use-cases.mjs",
+    "showcase:dev": "npm run sync:use-cases && npm run pack:templates && npm --prefix showcase run dev",
+    "showcase:build": "npm run sync:use-cases && npm run pack:templates && npm --prefix showcase run build",
+    "showcase:preview": "npm --prefix showcase run preview",
+    "showcase:install": "npm --prefix showcase install",
+    "showcase:docker": "docker compose up -d --build"
+  }
+}

@@ -4,6 +4,20 @@ A comprehensive collection of production-ready boilerplate code for different pr
 
 **Library vs project:** Templates in this repo are starting points only. You do not need to install dependencies or provision databases inside the library. Each boilerplate README has a **When you're ready to use this template** section with the copy → configure → run steps for that stack.
 
+## Use Cases Showcase (web UI)
+
+Browse ranked project ideas and download template ZIPs.
+
+**Recommended (VPS):** pull your deploy branch, then:
+
+```bash
+docker compose up -d --build
+```
+
+Serves on port **8080** by default (`SHOWCASE_PORT` to override). See [showcase/README.md](./showcase/README.md).
+
+**Local UI:** `npm run showcase:install` then `npm run showcase:dev`.
+
 ## 📂 Available Boilerplates
 
 ### Frontend Boilerplates

@@ -1,0 +1,16 @@
+.git
+**/node_modules
+**/dist
+**/.next
+**/.env
+**/.env.*
+**/*.log
+**/.DS_Store
+showcase/public/downloads/*.zip
+Memory-Bank
+TEST_RESULTS.md
+TESTING_GUIDE.md
+simple-test.sh
+test-boilerplates.sh
+boilerplate-library/**/node_modules
+boilerplate-library/mern-starter

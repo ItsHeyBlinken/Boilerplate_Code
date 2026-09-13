@@ -337,5 +337,31 @@ Created 6 new high-priority boilerplates with comprehensive documentation and co
 
 ---
 
+## Session 9 - PROJECT_USE_CASES coverage
+**Date**: 2026-09-13
+
+### Completed Tasks
+1. ✅ Added Full-Stack use-case sections for Blog/CMS, Realtime Socket.io, SaaS Starter, tRPC Starter (5 ideas each)
+2. ✅ Updated Learning Path, Project Combinations, and Industry-Specific lists to include the new templates
+3. ✅ Made stacks/projects collapsible (`<details>`), added Difficulty Tier + Recommendation rankings
+4. ✅ Deduped repeat ideas across Remix/PERN/Next/Express with unique replacements
+
+---
+
+## Session 10 - Use Cases Showcase (VPS)
+**Date**: 2026-09-13
+
+### Completed Tasks
+1. ✅ `showcase/` Vite + React UI (filters, accordion, Download ZIP)
+2. ✅ `scripts/sync-use-cases.mjs` + `scripts/pack-templates.mjs` (20 zips)
+3. ✅ Root package.json scripts; gitignore downloads; VPS/nginx docs
+4. ✅ Root README + Memory Bank updated
+
+#### Follow-up
+- ✅ Docker Compose deploy path: root `Dockerfile` + `docker-compose.yml` + `showcase/nginx.conf`
+- ✅ Docs: git pull deploy branch → `docker compose up -d --build` (ZIPs built in-image)
+
+---
+
 *This log tracks all completed work and changes made to the project.*
 
