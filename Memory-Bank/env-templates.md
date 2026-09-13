@@ -240,6 +240,25 @@ VITE_API_URL=http://localhost:4000/api
 VITE_SOCKET_URL=http://localhost:4000
 ```
 
+## saas-starter/.env.example
+```bash
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/saas_starter?schema=public
+JWT_SECRET=change-me-in-production
+NEXT_PUBLIC_APP_NAME=SaaS Starter
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key
+STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key
+STRIPE_WEBHOOK_SECRET=whsec_your_webhook_secret
+STRIPE_PRICE_PRO=price_your_pro_price_id
+```
+
+## trpc-starter/.env.example
+```bash
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/trpc_starter?schema=public
+JWT_SECRET=change-me-in-production
+NEXT_PUBLIC_APP_NAME=tRPC Starter
+```
+
 ## react-vite/.env.example
 ```bash
 # API Configuration

@@ -266,6 +266,8 @@ main() {
     test_react_project "./boilerplate-library/react-vite" "react-vite"
     test_react_project "./boilerplate-library/nextjs-starter" "nextjs-starter"
     test_react_project "./boilerplate-library/blog-cms" "blog-cms"
+    test_react_project "./boilerplate-library/saas-starter" "saas-starter"
+    test_react_project "./boilerplate-library/trpc-starter" "trpc-starter"
     
     # Test Node.js API projects
     echo -e "\n${BLUE}🔧 Testing Node.js API Projects${NC}"

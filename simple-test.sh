@@ -194,6 +194,8 @@ main() {
         "blog-cms"
         "realtime-socketio/server"
         "realtime-socketio/client"
+        "saas-starter"
+        "trpc-starter"
         "nextjs-starter"
         "react-vite"
         "docker-node"

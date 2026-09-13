@@ -322,5 +322,20 @@ Created 6 new high-priority boilerplates with comprehensive documentation and co
 
 ---
 
+## Session 8 - Pass 2: SaaS + tRPC
+**Date**: 2026-09-13
+
+### Completed Tasks
+1. ✅ `saas-starter`: Next.js App Router + Prisma (User/Organization/Membership), org Stripe Checkout + Portal + webhooks, dashboard/members/billing UI, Use Cases in README
+2. ✅ `trpc-starter`: Next.js + tRPC v11 + Prisma User/Post, cookie JWT procedures, React Query client pages, Use Cases in README
+3. ✅ Root README, `simple-test.sh`, `test-boilerplates.sh` updated
+4. ✅ Memory Bank updated; Pass 2 complete
+
+### Deferred
+- Runtime smoke installs (at template adoption)
+- Fastify, CI/CD, Expo, deeper CRM/ecommerce
+
+---
+
 *This log tracks all completed work and changes made to the project.*
 

@@ -32,6 +32,8 @@ A comprehensive collection of production-ready boilerplate code for different pr
 | [**E-commerce Platform**](./boilerplate-library/ecommerce-platform/) | Lean shop (products, cart, orders) on PostgreSQL + Prisma | Online stores, marketplaces, retail platforms |
 | [**Blog / CMS**](./boilerplate-library/blog-cms/) | Next.js App Router blog + admin CMS on PostgreSQL + Prisma | Blogs, content sites, editorial workflows |
 | [**Realtime Socket.io**](./boilerplate-library/realtime-socketio/) | Express + Socket.io + React rooms/chat on PostgreSQL + Prisma | Chat apps, presence, collaborative tools |
+| [**SaaS Starter**](./boilerplate-library/saas-starter/) | Multi-tenant orgs + Stripe Checkout on Next.js + Prisma | B2B SaaS, workspace billing, vertical SaaS |
+| [**tRPC Starter**](./boilerplate-library/trpc-starter/) | Next.js + tRPC + Prisma end-to-end typesafe CRUD | Typesafe full-stack apps, internal tools |
 
 ### Infrastructure & Tools
 | Boilerplate | Description | Use Cases |
@@ -105,7 +107,7 @@ npm run dev
 - **Node.js** (v18+ recommended)
 - **npm** or **yarn**
 - **Git**
-- **PostgreSQL** (for database / PERN / Stripe / Docker / CRM / ecommerce / Blog / Realtime boilerplates)
+- **PostgreSQL** (for database / PERN / Stripe / Docker / CRM / ecommerce / Blog / Realtime / SaaS / tRPC boilerplates)
 - **Docker** (for Dockerized boilerplate)
 
 ## 🛠️ Technology Stack

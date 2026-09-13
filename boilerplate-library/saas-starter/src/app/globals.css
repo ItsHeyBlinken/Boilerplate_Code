@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slateink-50 text-slateink-900 antialiased;
+  background-image:
+    radial-gradient(ellipse at top right, rgba(37, 99, 235, 0.08), transparent 45%),
+    linear-gradient(180deg, #f2f5f8 0%, #e4eaf0 100%);
+  min-height: 100vh;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}

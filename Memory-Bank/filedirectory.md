@@ -140,6 +140,21 @@
 - `client/` - Vite React + Zustand + socket.io-client (rooms list, chat page)
 - Root `npm run dev` runs client + server concurrently
 
+### 13. saas-starter/
+**Purpose**: Lean multi-tenant SaaS with Stripe org billing on Next.js + Prisma
+- `prisma/schema.prisma` - User, Organization, Membership
+- `src/app/` - auth, dashboard, org members/billing, API auth/orgs/billing/webhooks
+- `src/lib/` - prisma, auth, stripe, tenant helpers
+- README with ready-to-use + Use Cases
+
+### 14. trpc-starter/
+**Purpose**: Lean end-to-end typesafe API on Next.js + tRPC + Prisma
+- `prisma/schema.prisma` - User, Post
+- `src/server/` - trpc init, auth + posts routers
+- `src/app/api/trpc/[trpc]/route.ts` - fetch adapter
+- `src/trpc/` - React Query provider + createTRPCReact client
+- README with ready-to-use + Use Cases
+
 ## Common File Patterns
 
 ### Configuration Files (Common Across Projects)
