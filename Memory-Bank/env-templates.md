@@ -185,20 +185,15 @@ DATABASE_URL=postgresql://postgres:postgres@localhost:5432/docker_node?schema=pu
 ```bash
 NODE_ENV=development
 PORT=3000
-MONGODB_URI=mongodb://localhost:27017/crm-platform
-JWT_SECRET=your-super-secret-jwt-key
-JWT_EXPIRE=7d
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-password
-FRONTEND_URL=http://localhost:5173
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/crm_platform?schema=public
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+JWT_EXPIRES_IN=7d
+CORS_ORIGIN=http://localhost:5173
 ```
 
 ### Client (.env)
 ```bash
-VITE_API_URL=http://localhost:3000/api
-VITE_APP_NAME=CRM Platform
+VITE_API_URL=/api
 ```
 
 ## ecommerce-platform/.env.example
@@ -207,23 +202,17 @@ VITE_APP_NAME=CRM Platform
 ```bash
 NODE_ENV=development
 PORT=3000
-MONGODB_URI=mongodb://localhost:27017/ecommerce-platform
-JWT_SECRET=your-super-secret-jwt-key
-JWT_EXPIRE=7d
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/ecommerce_platform?schema=public
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+JWT_EXPIRES_IN=7d
+CORS_ORIGIN=http://localhost:5173
 STRIPE_SECRET_KEY=sk_test_your_stripe_secret_key
-STRIPE_WEBHOOK_SECRET=whsec_your_webhook_secret
-REDIS_URL=redis://localhost:6379
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-password
-FRONTEND_URL=http://localhost:5173
+STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key
 ```
 
 ### Client (.env)
 ```bash
-VITE_API_URL=http://localhost:3000/api
-VITE_STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable_key
+VITE_API_URL=/api
 ```
 
 ## react-vite/.env.example

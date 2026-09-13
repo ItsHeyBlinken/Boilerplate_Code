@@ -1,45 +1,45 @@
-/**
- * Category Management Routes
- * 
- * This module defines all category-related API routes
- * for the e-commerce platform.
- * 
- * Routes:
- * - GET / - Get all categories
- * - POST / - Create category (Admin only)
- * - GET /tree - Get category tree structure
- * - GET /:id - Get single category
- * - PUT /:id - Update category (Admin only)
- * - DELETE /:id - Delete category (Admin only)
- * 
- * @author E-commerce Platform Team
- * @version 1.0.0
- */
+import { Router } from 'express'
+import { prisma } from '../lib/prisma'
+import { asyncHandler } from '../middleware/errorHandler'
+import { AuthRequest, protect, authorize } from '../middleware/auth'
 
-import express from 'express'
-import { 
-  getCategories, 
-  getCategory, 
-  createCategory, 
-  updateCategory, 
-  deleteCategory,
-  getCategoryTree
-} from '../controllers/categoryController'
-import { protect, authorize } from '../middleware/auth'
-import { upload } from '../middleware/upload'
+const router = Router()
 
-const router = express.Router()
+function slugify(input: string) {
+  return input
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/[\s_-]+/g, '-')
+}
 
-router.route('/')
-  .get(getCategories)
-  .post(protect, authorize('ADMIN'), upload.single('image'), createCategory)
+router.get(
+  '/',
+  asyncHandler(async (_req, res) => {
+    const categories = await prisma.category.findMany({ orderBy: { name: 'asc' } })
+    res.json({ success: true, data: categories })
+  }),
+)
 
-router.route('/tree')
-  .get(getCategoryTree)
-
-router.route('/:id')
-  .get(getCategory)
-  .put(protect, authorize('ADMIN'), upload.single('image'), updateCategory)
-  .delete(protect, authorize('ADMIN'), deleteCategory)
+router.post(
+  '/',
+  protect,
+  authorize('ADMIN'),
+  asyncHandler(async (req: AuthRequest, res) => {
+    const { name, description } = req.body
+    if (!name) {
+      res.status(400).json({ success: false, error: 'name is required' })
+      return
+    }
+    const category = await prisma.category.create({
+      data: {
+        name,
+        description,
+        slug: `${slugify(name)}-${Date.now()}`,
+      },
+    })
+    res.status(201).json({ success: true, data: category })
+  }),
+)
 
 export default router

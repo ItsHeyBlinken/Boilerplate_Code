@@ -1,53 +1,33 @@
-/**
- * Payment Processing Routes
- * 
- * This module defines all payment-related API routes
- * for the e-commerce platform.
- * 
- * Routes:
- * - POST /intent - Create payment intent
- * - POST /confirm - Confirm payment
- * - POST /refund - Create refund
- * - GET /methods - Get payment methods
- * - POST /methods - Add payment method
- * - DELETE /methods/:id - Remove payment method
- * 
- * All routes require user authentication.
- * 
- * @author E-commerce Platform Team
- * @version 1.0.0
- */
+import { Router } from 'express'
+import Stripe from 'stripe'
+import { asyncHandler } from '../middleware/errorHandler'
+import { AuthRequest, protect } from '../middleware/auth'
 
-import express from 'express'
-import { 
-  createPaymentIntent, 
-  confirmPayment, 
-  createRefund,
-  getPaymentMethods,
-  addPaymentMethod,
-  removePaymentMethod
-} from '../controllers/paymentController'
-import { protect } from '../middleware/auth'
+const router = Router()
 
-const router = express.Router()
+const stripeSecret = process.env.STRIPE_SECRET_KEY || 'sk_test_replace_me'
+const stripe = new Stripe(stripeSecret, { apiVersion: '2023-10-16' })
 
-// All payment routes require authentication
-router.use(protect)
-
-router.route('/intent')
-  .post(createPaymentIntent)
-
-router.route('/confirm')
-  .post(confirmPayment)
-
-router.route('/refund')
-  .post(createRefund)
-
-router.route('/methods')
-  .get(getPaymentMethods)
-  .post(addPaymentMethod)
-
-router.route('/methods/:methodId')
-  .delete(removePaymentMethod)
+router.post(
+  '/create-payment-intent',
+  protect,
+  asyncHandler(async (req: AuthRequest, res) => {
+    const { amount, currency = 'usd' } = req.body
+    if (!amount || amount <= 0) {
+      res.status(400).json({ success: false, error: 'Valid amount is required' })
+      return
+    }
+    const intent = await stripe.paymentIntents.create({
+      amount: Math.round(Number(amount) * 100),
+      currency,
+      metadata: { userId: req.user!.id },
+      automatic_payment_methods: { enabled: true },
+    })
+    res.json({
+      success: true,
+      data: { clientSecret: intent.client_secret, id: intent.id },
+    })
+  }),
+)
 
 export default router

@@ -110,62 +110,20 @@
 - `README.md` - Documentation
 
 ### 9. crm-platform/
-**Purpose**: Complete CRM (Customer Relationship Management) platform
-- `package.json` - Root package.json with scripts
-- `README.md` - Documentation
-- `client/` - React frontend
-  - `package.json` - Client dependencies
-  - `vite.config.ts` - Vite configuration
-  - `tsconfig.json` - TypeScript configuration
-  - `tailwind.config.js` - Tailwind CSS configuration
-  - `postcss.config.js` - PostCSS configuration
-  - `index.html` - HTML entry point
-  - `src/` - Source code
-    - `App.tsx` - Main app component
-    - `main.tsx` - Application entry point
-    - `styles/` - Global styles
-- `server/` - Express backend
-  - `package.json` - Server dependencies
-  - `tsconfig.json` - TypeScript configuration
-  - `src/` - Source code
-    - `index.ts` - Server entry point
-    - `config/` - Configuration files
-    - `models/` - Mongoose models (User, Contact, Lead, Deal, Task, Activity)
-    - `middleware/` - Express middleware
-    - `services/` - Business logic services
-    - `utils/` - Utility functions
+**Purpose**: Lean CRM (contacts, leads, deals) on PostgreSQL + Prisma
+- `client/` - React + Zustand auth, Dashboard/Contacts/Leads/Deals
+- `server/`
+  - `prisma/schema.prisma` - User, Contact, Lead, Deal
+  - `src/routes/` - auth, contacts, leads, deals, dashboard
+  - `src/lib/prisma.ts`
 
 ### 10. ecommerce-platform/
-**Purpose**: Complete e-commerce platform
-- `package.json` - Root package.json with scripts
-- `README.md` - Documentation
-- `client/` - React frontend
-  - `package.json` - Client dependencies
-  - `vite.config.ts` - Vite configuration
-  - `tsconfig.json` - TypeScript configuration
-  - `tailwind.config.js` - Tailwind CSS configuration
-  - `postcss.config.js` - PostCSS configuration
-  - `index.html` - HTML entry point
-  - `src/` - Source code
-    - `App.tsx` - Main app component
-    - `main.tsx` - Application entry point
-    - `components/` - React components (Auth, Layout)
-    - `pages/` - Page components (Home, Products, Cart, Checkout, etc.)
-    - `contexts/` - React contexts (AuthContext, CartContext)
-    - `services/` - API service functions
-    - `types/` - TypeScript type definitions
-    - `styles/` - Global styles
-- `server/` - Express backend
-  - `package.json` - Server dependencies
-  - `tsconfig.json` - TypeScript configuration
-  - `src/` - Source code
-    - `index.ts` - Server entry point
-    - `config/` - Configuration files
-    - `controllers/` - Route controllers
-    - `models/` - Mongoose models
-    - `routes/` - API routes
-    - `middleware/` - Express middleware
-    - `utils/` - Utility functions
+**Purpose**: Lean shop (products, cart, orders) on PostgreSQL + Prisma
+- `client/` - React shop UI (Home/Products/Cart/Orders)
+- `server/`
+  - `prisma/schema.prisma` - User, Category, Product, CartItem, Order, OrderItem
+  - `src/routes/` - auth, users, products, categories, cart, orders, payments
+  - Thin Stripe PaymentIntent endpoint
 
 ## Common File Patterns
 

@@ -1,0 +1,117 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  MANAGER
+  ADMIN
+}
+
+enum LeadStatus {
+  NEW
+  CONTACTED
+  QUALIFIED
+  PROPOSAL
+  NEGOTIATION
+  CLOSED_WON
+  CLOSED_LOST
+}
+
+enum DealStatus {
+  OPEN
+  WON
+  LOST
+}
+
+model User {
+  id        String    @id @default(cuid())
+  email     String    @unique
+  password  String
+  firstName String    @map("first_name")
+  lastName  String    @map("last_name")
+  role      Role      @default(USER)
+  isActive  Boolean   @default(true) @map("is_active")
+  lastLogin DateTime? @map("last_login")
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+
+  contacts Contact[]
+  leads    Lead[]
+  deals    Deal[]
+
+  @@map("users")
+}
+
+model Contact {
+  id        String   @id @default(cuid())
+  firstName String   @map("first_name")
+  lastName  String   @map("last_name")
+  email     String
+  phone     String?
+  company   String?
+  title     String?
+  notes     String?
+  ownerId   String   @map("owner_id")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  owner User   @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  leads Lead[]
+  deals Deal[]
+
+  @@index([ownerId])
+  @@map("contacts")
+}
+
+model Lead {
+  id        String     @id @default(cuid())
+  firstName String     @map("first_name")
+  lastName  String     @map("last_name")
+  email     String
+  phone     String?
+  company   String?
+  source    String     @default("other")
+  status    LeadStatus @default(NEW)
+  score     Int        @default(0)
+  notes     String?
+  ownerId   String     @map("owner_id")
+  contactId String?    @map("contact_id")
+  createdAt DateTime   @default(now()) @map("created_at")
+  updatedAt DateTime   @updatedAt @map("updated_at")
+
+  owner   User     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  contact Contact? @relation(fields: [contactId], references: [id], onDelete: SetNull)
+  deals   Deal[]
+
+  @@index([ownerId])
+  @@map("leads")
+}
+
+model Deal {
+  id        String     @id @default(cuid())
+  title     String
+  amount    Float      @default(0)
+  currency  String     @default("usd")
+  status    DealStatus @default(OPEN)
+  stage     String     @default("qualification")
+  notes     String?
+  ownerId   String     @map("owner_id")
+  contactId String?    @map("contact_id")
+  leadId    String?    @map("lead_id")
+  closedAt  DateTime?  @map("closed_at")
+  createdAt DateTime   @default(now()) @map("created_at")
+  updatedAt DateTime   @updatedAt @map("updated_at")
+
+  owner   User     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  contact Contact? @relation(fields: [contactId], references: [id], onDelete: SetNull)
+  lead    Lead?    @relation(fields: [leadId], references: [id], onDelete: SetNull)
+
+  @@index([ownerId])
+  @@map("deals")
+}

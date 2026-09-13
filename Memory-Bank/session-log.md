@@ -288,5 +288,21 @@ Created 6 new high-priority boilerplates with comprehensive documentation and co
 
 ---
 
+## Session 6 - Lean CRM + Ecommerce Postgres
+**Date**: 2026-09-13
+
+### Completed Tasks
+1. ✅ CRM lean rebuild: Prisma schema (User/Contact/Lead/Deal), auth + CRUD routes, React UI (no Socket.io)
+2. ✅ Ecommerce lean rebuild: Prisma schema (User/Category/Product/CartItem/Order), cart/orders/payments routes, React shop UI
+3. ✅ Removed Mongoose from both platforms; `DATABASE_URL` envs; honest READMEs
+4. ✅ Memory Bank + root README updated (Mongo no longer required for CRM/ecommerce)
+
+### Deferred
+- Runtime smoke installs (at template adoption)
+- New templates (realtime, SaaS, tRPC)
+- CRM tasks/activities; ecommerce reviews/uploads
+
+---
+
 *This log tracks all completed work and changes made to the project.*
 

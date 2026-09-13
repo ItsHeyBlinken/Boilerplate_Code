@@ -28,8 +28,8 @@ A comprehensive collection of production-ready boilerplate code for different pr
 | Boilerplate | Description | Use Cases |
 |-------------|-------------|-----------|
 | [**PERN Starter**](./boilerplate-library/pern-starter/) | PostgreSQL + Express + React + Node (Prisma) CRUD app | Full-stack applications, content management systems |
-| [**CRM Platform**](./boilerplate-library/crm-platform/) | Complete CRM with contact, lead, and deal management | Customer relationship management, sales tracking |
-| [**E-commerce Platform**](./boilerplate-library/ecommerce-platform/) | Full e-commerce with products, cart, and payments | Online stores, marketplaces, retail platforms |
+| [**CRM Platform**](./boilerplate-library/crm-platform/) | Lean CRM (contacts, leads, deals) on PostgreSQL + Prisma | Customer relationship management, sales tracking |
+| [**E-commerce Platform**](./boilerplate-library/ecommerce-platform/) | Lean shop (products, cart, orders) on PostgreSQL + Prisma | Online stores, marketplaces, retail platforms |
 
 ### Infrastructure & Tools
 | Boilerplate | Description | Use Cases |
@@ -103,9 +103,8 @@ npm run dev
 - **Node.js** (v18+ recommended)
 - **npm** or **yarn**
 - **Git**
-- **PostgreSQL** (for database / PERN / Stripe / Docker boilerplates)
+- **PostgreSQL** (for database / PERN / Stripe / Docker / CRM / ecommerce boilerplates)
 - **Docker** (for Dockerized boilerplate)
-- **MongoDB** (still used by CRM and E-commerce templates — planned Postgres migration)
 
 ## 🛠️ Technology Stack
 
@@ -113,7 +112,7 @@ Each boilerplate uses modern, production-ready technologies:
 
 - **Frontend**: React, Next.js, Remix, Vue.js, Vite, TypeScript, Tailwind CSS
 - **Backend**: Node.js, Express.js, NestJS, GraphQL (Apollo), TypeScript
-- **Database**: PostgreSQL (Prisma); MongoDB (Mongoose) remaining on CRM/E-commerce pending migration
+- **Database**: PostgreSQL (Prisma) across modern templates
 - **Authentication**: JWT, NextAuth.js, Passport
 - **Validation**: Zod, class-validator
 - **State Management**: Zustand, Pinia

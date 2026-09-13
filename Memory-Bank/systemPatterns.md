@@ -50,7 +50,7 @@ boilerplate-library/
   - Root `package.json` with scripts to run both
 - **Communication**: RESTful API between client and server
 - **State Management**: Zustand on client
-- **Database**: PostgreSQL with Prisma (preferred); MongoDB with Mongoose remaining on CRM/ecommerce pending migration
+- **Database**: PostgreSQL with Prisma (lean domain models)
 
 ## Key Technical Decisions
 

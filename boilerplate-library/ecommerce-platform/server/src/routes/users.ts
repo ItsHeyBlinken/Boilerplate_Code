@@ -1,53 +1,48 @@
-/**
- * User Management Routes
- * 
- * This module defines all user management API routes
- * for the e-commerce platform.
- * 
- * Routes:
- * - GET / - Get all users (Admin only)
- * - POST / - Create user (Admin only)
- * - PUT /profile - Update user profile
- * - POST /avatar - Upload avatar
- * - DELETE /avatar - Delete avatar
- * - GET /:id - Get user by ID (Admin only)
- * - PUT /:id - Update user (Admin only)
- * - DELETE /:id - Delete user (Admin only)
- * 
- * @author E-commerce Platform Team
- * @version 1.0.0
- */
+import { Router } from 'express'
+import { prisma } from '../lib/prisma'
+import { asyncHandler } from '../middleware/errorHandler'
+import { AuthRequest, protect, authorize } from '../middleware/auth'
+import { sanitizeUser } from '../utils/password'
 
-import express from 'express'
-import { 
-  getUsers, 
-  getUser, 
-  createUser, 
-  updateUser, 
-  deleteUser,
-  updateProfile,
-  uploadAvatar,
-  deleteAvatar
-} from '../controllers/userController'
-import { protect, authorize } from '../middleware/auth'
-import { upload } from '../middleware/upload'
+const router = Router()
 
-const router = express.Router()
+router.get(
+  '/profile',
+  protect,
+  asyncHandler(async (req: AuthRequest, res) => {
+    const user = await prisma.user.findUnique({ where: { id: req.user!.id } })
+    if (!user) {
+      res.status(404).json({ success: false, error: 'User not found' })
+      return
+    }
+    res.json({ success: true, user: sanitizeUser(user) })
+  }),
+)
 
-router.route('/')
-  .get(protect, authorize('ADMIN'), getUsers)
-  .post(protect, authorize('ADMIN'), createUser)
+router.put(
+  '/profile',
+  protect,
+  asyncHandler(async (req: AuthRequest, res) => {
+    const { firstName, lastName } = req.body
+    const user = await prisma.user.update({
+      where: { id: req.user!.id },
+      data: {
+        ...(firstName !== undefined ? { firstName } : {}),
+        ...(lastName !== undefined ? { lastName } : {}),
+      },
+    })
+    res.json({ success: true, user: sanitizeUser(user) })
+  }),
+)
 
-router.route('/profile')
-  .put(protect, updateProfile)
-
-router.route('/avatar')
-  .post(protect, upload.single('avatar'), uploadAvatar)
-  .delete(protect, deleteAvatar)
-
-router.route('/:id')
-  .get(protect, authorize('ADMIN'), getUser)
-  .put(protect, authorize('ADMIN'), updateUser)
-  .delete(protect, authorize('ADMIN'), deleteUser)
+router.get(
+  '/',
+  protect,
+  authorize('ADMIN'),
+  asyncHandler(async (_req, res) => {
+    const users = await prisma.user.findMany({ orderBy: { createdAt: 'desc' }, take: 100 })
+    res.json({ success: true, data: users.map(sanitizeUser) })
+  }),
+)
 
 export default router
